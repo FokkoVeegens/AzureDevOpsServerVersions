@@ -1,6 +1,6 @@
 # Introduction
 
-There is a huge amount of versions around of Microsoft Team Foundation Server (TFS) and Azure DevOps Server. Sometimes it's rather difficult to find out the version and patch level of a server or assembly. This list has most of the versions, including most of the patches. The main source for this list is the Microsoft DevBlog (https://devblogs.microsoft.com/devops).
+There is a huge amount of versions around of Microsoft Team Foundation Server (TFS) and Azure DevOps Server. Sometimes it's rather difficult to find out the version and patch level of a server or assembly. This list has most of the versions, including most of the patches. The main source for this list is the Microsoft DevBlog (https://devblogs.microsoft.com/devops). I also used https://docs.microsoft.com/en-us/azure/devops/user-guide/provide-feedback?view=azure-devops#azure-devops-server.
 
 If you want to know if a certain feature is contained in a certain release, use this page to find out: https://docs.microsoft.com/en-us/azure/devops/release-notes/features-timeline.
 
@@ -28,8 +28,8 @@ If you see a blank, feel free to contribute using a PR.
 |2020 Patch 2|18.170.30830.2|
 |2020 Patch 1|18.170.30723.6|
 |2020 RTW|18.170.30525.1|
-|2020 RC2||
-|2020 RC1||
+|2020 RC2|18.170.30331.4|
+|2020 RC1|18.170.30308.2|
 
 # 2019
 
@@ -86,7 +86,7 @@ If you see a blank, feel free to contribute using a PR.
 |2018.3.2|16.131.28601.4|
 |2018.3.1||
 |2018.3 Patch|16.131.28224.5|
-|2018.3||
+|2018.3|16.131.28106.2|
 |2018.3 RC||
 |2018.2|16.131.27701.1|
 |2018.2 RC2||
@@ -101,7 +101,7 @@ If you see a blank, feel free to contribute using a PR.
 |2018.1.2|16.122.28313.3|
 |2018.1.1 Patch|16.122.28226.4|
 |2018.1.1||
-|2018.1||
+|2018.1|16.122.27409.2|
 |2018 RTW|16.122.27102.1|
 |2018 RC2|16.122.26918.3|
 |2018 RC1|16.121.26818.0|
