@@ -8,17 +8,17 @@ If you see a blank, feel free to contribute using a PR.
 
 # 2020
 
-|Public version number|Semantic Version Number|
-|-|-|
-|2020.1.1 RTW|18.181.31626.1|
-|2020.1.1 RC||
-|2020.1 Patch 2|18.181.31609.2|
-|2020.1 Patch 1|18.181.31402.2|
+|Public version number|Semantic Version Number|Release Date|Announcement URL|
+|-|-|-|-|
+|2020.1.1 RTW|18.181.31626.1|17-Aug-2021|https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-1-rtw-now-available/|
+|2020.1.1 RC||13-Jul-2021|https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-1-rc-now-available/|
+|2020.1 Patch 2|18.181.31609.2|10-Aug-2021|https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server/|
+|2020.1 Patch 1|18.181.31402.2|15-Jun-2021|https://devblogs.microsoft.com/devops/june-patches-for-azure-devops-server/|
 |2020.1 RTW|18.181.31230.2|
 |2020.1 RC2||
 |2020.1 RC1||
-|2020.0.1 Patch 5|18.170.31602.2|
-|2020.0.1 Patch 4|18.170.31402.6|
+|2020.0.1 Patch 5|18.170.31602.2|10-Aug-2021|https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server/|
+|2020.0.1 Patch 4|18.170.31402.6|15-Jun-2021|https://devblogs.microsoft.com/devops/june-patches-for-azure-devops-server/
 |2020.0.1 Patch 3|18.170.31228.1|
 |2020.0.1 Patch 2|18.170.31123.3|
 |2020.0.1 Patch 1|18.170.31004.1|
@@ -33,10 +33,10 @@ If you see a blank, feel free to contribute using a PR.
 
 # 2019
 
-|Public version number|Semantic Version Number|
-|-|-|
-|2019.1.1 Patch 10|17.153.31528.2|
-|2019.1.1 Patch 9|17.153.31402.4|
+|Public version number|Semantic Version Number|Release Date|Announcement URL|
+|-|-|-|-|
+|2019.1.1 Patch 10|17.153.31528.2|10-Aug-2021|https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server/|
+|2019.1.1 Patch 9|17.153.31402.4|15-Jun-2021|https://devblogs.microsoft.com/devops/june-patches-for-azure-devops-server/
 |2019.1.1 Patch 8|17.153.31129.2|
 |2019.1.1 Patch 7|17.153.30904.4|
 |2019.1.1 Patch 6|17.153.30723.5|
@@ -50,7 +50,7 @@ If you see a blank, feel free to contribute using a PR.
 |2019.1|17.153.29207.5|
 |2019.1 RC2||
 |2019.1 RC1||
-|2019.0.1 Patch 11|17.143.31528.1|
+|2019.0.1 Patch 11|17.143.31528.1|10-Aug-2021|https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server/|
 |2019.0.1 Patch 9|17.143.30723.4|
 |2019.0.1 Patch 7|17.143.30229.3|
 |2019.0.1 Patch 6|17.143.30129.2|
@@ -68,8 +68,8 @@ If you see a blank, feel free to contribute using a PR.
 
 # 2018
 
-|Public version number|Semantic Version Number|
-|-|-|
+|Public version number|Semantic Version Number|Release Date|Announcement URL|
+|-|-|-|-|
 |2018.3.2 Patch 14|16.131.30724.3|
 |2018.3.2 Patch 13|16.131.30605.1|
 |2018.3.2 Patch 12|16.131.30229.4|
@@ -108,8 +108,8 @@ If you see a blank, feel free to contribute using a PR.
 
 # 2017
 
-|Public version number|Semantic Version Number|
-|-|-|
+|Public version number|Semantic Version Number|Release Date|Announcement URL|
+|-|-|-|-|
 |2017.3.1 Patch 12|15.117.30801.0|
 |2017.3.1 Patch 11|15.117.30128.0|
 |2017.3.1 Patch 10|15.117.29825.0|
@@ -138,8 +138,8 @@ If you see a blank, feel free to contribute using a PR.
 
 # 2015
 
-|Public version number|Semantic Version Number|
-|-|-|
+|Public version number|Semantic Version Number|Release Date|Announcement URL|
+|-|-|-|-|
 |2015.4.2 Patch 7|14.114.30730.0|
 |2015.4.2 Patch 6|14.114.30104.0|
 |2015.4.2 Patch 5|14.114.29825.0|
@@ -165,8 +165,8 @@ If you see a blank, feel free to contribute using a PR.
 
 # 2013
 
-|Public version number|Semantic Version Number|
-|-|-|
+|Public version number|Semantic Version Number|Release Date|Announcement URL|
+|-|-|-|-|
 |2013.5 Patch 1|12.0.40681.0|
 |2013.5|12.0.40629.0|
 |2013.4|12.0.31101.0|
@@ -179,8 +179,8 @@ If you see a blank, feel free to contribute using a PR.
 
 # 2012
 
-|Public version number|Semantic Version Number|
-|-|-|
+|Public version number|Semantic Version Number|Release Date|Announcement URL|
+|-|-|-|-|
 |2012.4 Patch 1|11.0.61243.400|
 |2012.4|11.0.61030.0|
 |2012.3|11.0.60610.1|
@@ -191,8 +191,8 @@ If you see a blank, feel free to contribute using a PR.
 
 # 2010
 
-|Public version number|Semantic Version Number|
-|-|-|
+|Public version number|Semantic Version Number|Release Date|Announcement URL|
+|-|-|-|-|
 |2010 CU2|10.0.40219.371|
 |2010 SP1 Patch 1|10.0.40219.506|
 |2010 SP1|10.0.40219.1|
@@ -200,14 +200,14 @@ If you see a blank, feel free to contribute using a PR.
 
 # 2008
 
-|Public version number|Semantic Version Number|
-|-|-|
+|Public version number|Semantic Version Number|Release Date|Announcement URL|
+|-|-|-|-|
 |2008 SP1|9.0.30729.1|
 |2008 RTM|9.0.21022.8|
 
 # 2005
 
-|Public version number|Semantic Version Number|
-|-|-|
+|Public version number|Semantic Version Number|Release Date|Announcement URL|
+|-|-|-|-|
 |2005 SP1|8.0.50727.762|
 |2005 RTM|8.0.50727.147|
