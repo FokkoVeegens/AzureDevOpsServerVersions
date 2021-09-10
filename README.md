@@ -65,7 +65,7 @@ If you see a blank, feel free to contribute using a PR.
 |2019 Patch 1|17.143.28804.3|9-Apr-2019|https://devblogs.microsoft.com/devops/april-security-release-patches-available-for-azure-devops-server-2019-tfs-2018-3-2-tfs-2018-1-2-tfs-2017-3-1-and-the-release-of-tfs-2015-4-2/|
 |2019 RTW|17.143.28621.4|5-Mar-2019|https://devblogs.microsoft.com/devops/announcing-azure-devops-server-2019-rtw/|
 |2019 RC2||22-Jan-2019|https://devblogs.microsoft.com/devops/azure-devops-server-2019-rc2-now-available/|
-|2019 RC1||
+|2019 RC1||21-Nov-2018|https://devblogs.microsoft.com/devops/announcing-azure-devops-server-2019-rc1/|
 
 # 2018
 
@@ -85,13 +85,15 @@ If you see a blank, feel free to contribute using a PR.
 |2018.3.2 Patch 3|16.131.28728.4|9-Apr-2019|https://devblogs.microsoft.com/devops/april-security-release-patches-available-for-azure-devops-server-2019-tfs-2018-3-2-tfs-2018-1-2-tfs-2017-3-1-and-the-release-of-tfs-2015-4-2/|
 |2018.3.2 Patch 2|16.131.28626.3|12-Mar-2019|https://devblogs.microsoft.com/devops/march-security-release-patches-available-for-tfs-2018-3-2-tfs-2018-1-2-and-tfs-2017-3-1/|
 |2018.3.2 Patch 1|16.131.28605.6|12-Feb-2019|https://devblogs.microsoft.com/devops/february-security-release-team-foundation-server-2018-update-3-2-patch-1-is-available/|
-|2018.3.2|16.131.28601.4|
+|2018.3.2|16.131.28601.4|15-Jan-2019|https://devblogs.microsoft.com/devops/team-foundation-server-security-updates/|
+|2018.3.2|16.131.28507.4|15-Jan-2019|https://devblogs.microsoft.com/devops/team-foundation-server-security-updates/|
 |2018.3.1||
-|2018.3 Patch|16.131.28224.5|
-|2018.3|16.131.28106.2|
-|2018.3 RC||
-|2018.2|16.131.27701.1|
-|2018.2 RC2||
+|2018.3 Patch|16.131.28224.5|5-Nov-2018|https://devblogs.microsoft.com/devops/security-fixes-for-team-foundation-server/|
+|2018.3|16.131.28106.2|18-Sep-2018|https://devblogs.microsoft.com/devops/team-foundation-server-2018-update-3-and-update-1-1-are-available/|
+|2018.3 RC||7-Aug-2018|https://devblogs.microsoft.com/devops/team-foundation-server-2018-update-3-rc-is-available/|
+|2018.2|16.131.27701.1|7-May-2018|https://devblogs.microsoft.com/devops/team-foundation-server-2018-update-2-is-now-available/|
+|2018.2 RC2||17-Apr-2018|https://devblogs.microsoft.com/devops/tfs-2018-update-2-rc2/|
+|2018.2 RC1||28-Mar-2018|https://devblogs.microsoft.com/devops/tfs-2018-update-2-rc1/|
 |2018.1.2 Patch 10||13-Apr-2021|https://devblogs.microsoft.com/devops/april-patches-for-azure-devops-server-and-team-foundation-server-2/|
 |2018.1.2 Patch 9|16.122.30723.1|8-Dec-2021|https://devblogs.microsoft.com/devops/december-patches-for-azure-devops-server-and-team-foundation-server/|
 |2018.1.2 Patch 8|16.122.29825.4|10-Mar-2020|https://devblogs.microsoft.com/devops/march-patches-for-azure-devops-server-and-team-foundation-server/|
@@ -100,10 +102,10 @@ If you see a blank, feel free to contribute using a PR.
 |2018.1.2 Patch 4|16.122.28826.4|14-May-2019|https://devblogs.microsoft.com/devops/may-security-release-patches-available-for-azure-devops-server-2019-tfs-2018-3-2-tfs-2018-1-2-tfs-2017-3-1-and-tfs-2015-4-2/|
 |2018.1.2 Patch 3|16.122.28801.2|9-Apr-2019|https://devblogs.microsoft.com/devops/april-security-release-patches-available-for-azure-devops-server-2019-tfs-2018-3-2-tfs-2018-1-2-tfs-2017-3-1-and-the-release-of-tfs-2015-4-2/|
 |2018.1.2 Patch 2|16.122.28627.2|12-Mar-2019|https://devblogs.microsoft.com/devops/march-security-release-patches-available-for-tfs-2018-3-2-tfs-2018-1-2-and-tfs-2017-3-1/|
-|2018.1.2 Patch|16.122.28512.1|
+|2018.1.2 Patch|16.122.28512.1|15-Jan-2019|https://devblogs.microsoft.com/devops/team-foundation-server-security-updates/|
 |2018.1.2|16.122.28313.3|
-|2018.1.1 Patch|16.122.28226.4|
-|2018.1.1||
+|2018.1.1 Patch|16.122.28226.4|5-Nov-2018|https://devblogs.microsoft.com/devops/security-fixes-for-team-foundation-server/|
+|2018.1.1||18-Sep-2018|https://devblogs.microsoft.com/devops/team-foundation-server-2018-update-3-and-update-1-1-are-available/|
 |2018.1|16.122.27409.2|
 |2018 RTW|16.122.27102.1|
 |2018 RC2|16.122.26918.3|
@@ -123,9 +125,9 @@ If you see a blank, feel free to contribute using a PR.
 |2017.3.1 Patch 5|15.117.28826.0|14-May-2019|https://devblogs.microsoft.com/devops/may-security-release-patches-available-for-azure-devops-server-2019-tfs-2018-3-2-tfs-2018-1-2-tfs-2017-3-1-and-tfs-2015-4-2/|
 |2017.3.1 Patch 4|15.117.28728.0|9-Apr-2019|https://devblogs.microsoft.com/devops/april-security-release-patches-available-for-azure-devops-server-2019-tfs-2018-3-2-tfs-2018-1-2-tfs-2017-3-1-and-the-release-of-tfs-2015-4-2/|
 |2017.3.1 Patch 3|15.117.28627.0|12-Mar-2019|https://devblogs.microsoft.com/devops/march-security-release-patches-available-for-tfs-2018-3-2-tfs-2018-1-2-and-tfs-2017-3-1/|
-|2017.3.1 Patch 2|15.117.28504.0|
-|2017.3.1 Patch 1|15.117.28224.0|
-|2017.3.1|15.117.27414.0|
+|2017.3.1 Patch 2|15.117.28504.0|15-Jan-2019|https://devblogs.microsoft.com/devops/team-foundation-server-security-updates/|
+|2017.3.1 Patch 1|15.117.28224.0|5-Nov-2018|https://devblogs.microsoft.com/devops/security-fixes-for-team-foundation-server/|
+|2017.3.1|15.117.27414.0|2-Mar-2018|https://devblogs.microsoft.com/devops/security-updates-for-tfs-2015-update-4-tfs-2017-and-tfs-2017-update-3/|
 |2017.3|15.117.27024.0|
 |2017.3 RC1|15.117.26912.0|
 |2017.2|15.117.26714.0|
@@ -135,7 +137,7 @@ If you see a blank, feel free to contribute using a PR.
 |2017.1 (rel on 7-Mar-2017)|15.112.26301.0|
 |2017.1 RC2|15.112.26206.0|
 |2017.1 RC1|15.111.26117.0|
-|2017.0.1|15.105.27412.0|
+|2017.0.1|15.105.27412.0|2-Mar-2018|https://devblogs.microsoft.com/devops/security-updates-for-tfs-2015-update-4-tfs-2017-and-tfs-2017-update-3/|
 |2017 RTM|15.105.25910.0|
 |2017 RC2|15.105.25716.0|
 |2017 RC1|15.103.25603.0|
@@ -151,7 +153,7 @@ If you see a blank, feel free to contribute using a PR.
 |2015.4.2 Patch 2|14.114.29025.0|9-Jul-2019|https://devblogs.microsoft.com/devops/july-security-release-patches-available-for-azure-devops-server-and-team-foundation-server/|
 |2015.4.2 Patch 1|14.114.28829.0|14-May-2019|https://devblogs.microsoft.com/devops/may-security-release-patches-available-for-azure-devops-server-2019-tfs-2018-3-2-tfs-2018-1-2-tfs-2017-3-1-and-tfs-2015-4-2/|
 |2015.4.2|14.114.28805.0|9-Apr-2019|https://devblogs.microsoft.com/devops/april-security-release-patches-available-for-azure-devops-server-2019-tfs-2018-3-2-tfs-2018-1-2-tfs-2017-3-1-and-the-release-of-tfs-2015-4-2/|
-|2015.4.1||
+|2015.4.1||2-Mar-2018|https://devblogs.microsoft.com/devops/security-updates-for-tfs-2015-update-4-tfs-2017-and-tfs-2017-update-3/|
 |2015.4|14.114.26403.0|
 |2015.4 RC1|14.113.26306.0|
 |2015.3|14.102.25423.0|
