@@ -203,8 +203,8 @@ If you see a blank, feel free to contribute using a PR.
 |-|-|-|-|
 |2010 CU2|10.0.40219.371|
 |2010 SP1 Patch 1|10.0.40219.506|9-Jul-2019|https://devblogs.microsoft.com/devops/july-security-release-patches-available-for-azure-devops-server-and-team-foundation-server/|
-|2010 SP1|10.0.40219.1|14-Apr-2010|https://devblogs.microsoft.com/buckh/tfs-2010-has-shipped/|
-|2010 RTM|10.0.30319.1|
+|2010 SP1|10.0.40219.1|
+|2010 RTM|10.0.30319.1|14-Apr-2010|https://devblogs.microsoft.com/buckh/tfs-2010-has-shipped/|
 
 # 2008
 
