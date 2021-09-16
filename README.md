@@ -165,24 +165,24 @@ If you see a blank, feel free to contribute using a PR.
 |2015.3 RC|14.98.25401.0|7-Jun-2016|https://devblogs.microsoft.com/bharry/team-foundation-server-2015-update-3-rc-is-available/|
 |2015.2.1|14.95.25229.0|6-May-2016|https://devblogs.microsoft.com/bharry/tfs-2015-update-2-1-is-available/|
 |2015.2|14.95.25122.0|31-Mar-2016|https://devblogs.microsoft.com/bharry/vs2015-update-2-and-tfs-2015-update-have-shipped/|
-|2015.2 RC2|14.95.25029.0|
-|2015.2 RC1|14.95.25005.0|
-|2015.1|14.0.24712.0|
-|2015.1 RC2|14.0.24626.0|
-|2015.1 RC1|14.0.24606.0|
-|2015 RTM|14.0.23128.0|
-|2015 RC2|14.0.23102.0|
-|2015 RC|14.0.22824.0|
-|2015 CTP|14.0.22604.0|
+|2015.2 RC2|14.95.25029.0|3-Mar-2016|https://devblogs.microsoft.com/bharry/tfs-2015-rc2-and-vs-2015-update-2-rc-are-available/|
+|2015.2 RC1|14.95.25005.0|10-Feb-2016|https://devblogs.microsoft.com/bharry/team-foundation-server-2015-update-2-rc-1-is-available/|
+|2015.1|14.0.24712.0|30-Nov-2015|https://devblogs.microsoft.com/bharry/vs-2015-update-1-and-tfs-2015-update-1-are-available/|
+|2015.1 RC2|14.0.24626.0|3-Nov-2015|https://devblogs.microsoft.com/bharry/vs-2015-update-1-rc-tfs-2015-update-1-rc2-released/|
+|2015.1 RC1|14.0.24606.0|14-Oct-2015|https://devblogs.microsoft.com/bharry/visual-studio-and-team-foundation-server-2015-update-1-pre-release-available/|
+|2015 RTM|14.0.23128.0|6-Aug-2015|https://devblogs.microsoft.com/bharry/team-foundation-server-2015-final-release/|
+|2015 RC2|14.0.23102.0|7-Jul-2015|https://devblogs.microsoft.com/bharry/team-foundation-server-2015-rc2-available/|
+|2015 RC|14.0.22824.0|29-Apr-2015|https://devblogs.microsoft.com/bharry/visual-studio-and-team-foundation-server-at-build-2015/|
+|2015 CTP|14.0.22604.0|23-Feb-2015|https://devblogs.microsoft.com/bharry/vs-2015-ctp6-and-tfs-2015-ctp1-shipped-today/|
 
 # 2013
 
 |Public version number|Semantic Version Number|Release Date|Announcement URL|
 |-|-|-|-|
 |2013.5 Patch 1|12.0.40681.0|9-Jul-2019|https://devblogs.microsoft.com/devops/july-security-release-patches-available-for-azure-devops-server-and-team-foundation-server/|
-|2013.5|12.0.40629.0|
-|2013.4|12.0.31101.0|
-|2013.4 RC|12.0.31010.0|
+|2013.5|12.0.40629.0|20-Jul-2015|https://devblogs.microsoft.com/visualstudio/visual-studio-2015-and-visual-studio-2013-update-5-released/|
+|2013.4|12.0.31101.0|12-Nov-2014|https://devblogs.microsoft.com/bharry/news-from-connect/|
+|2013.4 RC|12.0.31010.0|16-Oct-2014|https://devblogs.microsoft.com/bharry/visual-studio-and-tfs-2013-4-update-4-release-candidate/|
 |2013.3|12.0.30723.0|
 |2013.3 RC|12.0.30626.0|
 |2013.2|12.0.30324.0|
