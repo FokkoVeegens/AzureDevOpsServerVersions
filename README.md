@@ -238,7 +238,7 @@ If you see a blank, feel free to contribute using a PR.
 
 |Public version number|Semantic Version Number|Release Date|Announcement URL|
 |-|-|-|-|
-|2010 CU2|10.0.40219.371|
+|2010 CU2|10.0.40219.371|22-Dec-2011|https://support.microsoft.com/en-gb/topic/cumulative-update-package-2-for-visual-studio-team-foundation-server-2010-service-pack-1-c53b11a3-88f5-351b-faa9-c9fca2cb24a6|
 |2010 SP1 Patch 1|10.0.40219.506|9-Jul-2019|https://devblogs.microsoft.com/devops/july-security-release-patches-available-for-azure-devops-server-and-team-foundation-server/|
 |2010 SP1|10.0.40219.1|
 |2010 RTM|10.0.30319.1|14-Apr-2010|https://devblogs.microsoft.com/buckh/tfs-2010-has-shipped/|
