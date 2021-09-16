@@ -6,6 +6,19 @@ If you want to know if a certain feature is contained in a certain release, use 
 
 If you see a blank, feel free to contribute using a PR.
 
+# Table of contents
+
+* [2020](#2020)
+* [2019](#2019)
+* [2018](#2018)
+* [2017](#2017)
+* [2015](#2015)
+* [2013](#2013)
+* [2012](#2012)
+* [2010](#2010)
+* [2008](#2008)
+* [2005](#2005)
+
 # 2020
 
 |Public version number|Semantic Version Number|Release Date|Announcement URL|
