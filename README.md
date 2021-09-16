@@ -196,11 +196,18 @@ If you see a blank, feel free to contribute using a PR.
 |2013.5|12.0.40629.0|20-Jul-2015|https://devblogs.microsoft.com/visualstudio/visual-studio-2015-and-visual-studio-2013-update-5-released/|
 |2013.4|12.0.31101.0|12-Nov-2014|https://devblogs.microsoft.com/bharry/news-from-connect/|
 |2013.4 RC|12.0.31010.0|16-Oct-2014|https://devblogs.microsoft.com/bharry/visual-studio-and-tfs-2013-4-update-4-release-candidate/|
-|2013.3|12.0.30723.0|
-|2013.3 RC|12.0.30626.0|
-|2013.2|12.0.30324.0|
-|2013 RTM|12.0.21005.1|
-|2013 RC|12.0.20827.3|
+|2013.4 CTP2||22-Sep-2014|https://devblogs.microsoft.com/bharry/visual-studio-and-tfs-2013-4-ctp2-is-available/|
+|2013.4 CTP1||3-Sep-2014|https://devblogs.microsoft.com/bharry/vs-tfs-2013-update-4-ctp-1-is-available/|
+|2013.3|12.0.30723.0|4-Aug-2014|https://devblogs.microsoft.com/bharry/vstfs-2013-3-update-3-released/|
+|2013.3 RC|12.0.30626.0|2-Jul-2014|https://devblogs.microsoft.com/bharry/vstfs-2013-3-update-3-rc/|
+|2013.3 CTP2||9-Jun-2014|https://devblogs.microsoft.com/bharry/vstfs-2013-3-ctp-2-is-now-available/|
+|2013.3 CTP1||30-May-2014|https://devblogs.microsoft.com/bharry/visual-studioteam-foundation-server-2013-update-3-ctp1-vs-2013-3-1-if-you-wish/|
+|2013.2|12.0.30324.0|2-Apr-2014|https://devblogs.microsoft.com/bharry/tfs-2013-2-update-2-released/|
+|2013.2 CTP2||5-Mar-2014|https://devblogs.microsoft.com/bharry/vstfs-2013-2-ctp-2-available/|
+|2013.2 CTP1||5-Feb-2014|https://devblogs.microsoft.com/bharry/vstfs-2013-2-update-2-ctp-released/|
+|2013 RTM|12.0.21005.1|17-Oct-2013|https://devblogs.microsoft.com/bharry/visual-studio-2013-rtm-available/|
+|2013 RC|12.0.20827.3|9-Sep-2013|https://devblogs.microsoft.com/bharry/visual-studio-2013-tfs-2013-rc-is-available/|
+|2013 Preview||26-Jun-2013|https://devblogs.microsoft.com/bharry/visual-studio-2013-preview-is-available/|
 
 # 2012
 
@@ -208,11 +215,24 @@ If you see a blank, feel free to contribute using a PR.
 |-|-|-|-|
 |2012.4 Patch 1|11.0.61243.400|9-Jul-2019|https://devblogs.microsoft.com/devops/july-security-release-patches-available-for-azure-devops-server-and-team-foundation-server/|
 |2012.4|11.0.61030.0|
-|2012.3|11.0.60610.1|
-|2012.2|11.0.60315.1|
-|2012.1 CU1|11.0.60123.100|
-|2012.1|11.0.51106.1|
-|2012 RTM|11.0.50727.1|
+|2012.4 RC4||8-Oct-2013|https://devblogs.microsoft.com/bharry/vs-2012-4-and-tfs-2012-4-rc-4-is-available/|
+|2012.4 RC3||11-Sep-2013|https://devblogs.microsoft.com/bharry/visual-studio-2012-4-rc-3-available/|
+|2012.4 RC2||19-Aug-2013|https://devblogs.microsoft.com/bharry/vstfs-2012-4-update-4-rc-2-is-available/|
+|2012.4 RC1||30-Jul-2013|https://devblogs.microsoft.com/bharry/vs-2012-4-update-4-will-exist/|
+|2012.3|11.0.60610.1|26-Jun-2013|https://devblogs.microsoft.com/bharry/visual-studio-2012-3-is-released/|
+|2012.3 RC2||30-May-2013|https://devblogs.microsoft.com/bharry/visual-studio-2012-3-rc2-available/|
+|2012.3 RC1||7-May-2013|https://devblogs.microsoft.com/bharry/visual-studio-2012-3-update-3-go-live-ctp-is-now-available/|
+|2012.2|11.0.60315.1|4-Apr-2013|https://devblogs.microsoft.com/bharry/vstfs-2012-2-update-2-released-today/|
+|2012.2 CTP4||4-Mar-2013|https://devblogs.microsoft.com/bharry/ctp4-march-of-vstfs-2012-update-2-is-available/|
+|2012.2 CTP||11-Feb-2013|https://devblogs.microsoft.com/bharry/ctp-for-visual-studio-2012-update-2-vs-2012-2-is-available/|
+|2012.2 CTP||30-Jan-2013|https://devblogs.microsoft.com/bharry/announcing-visual-studio-2012-update-2-vs2012-2/|
+|2012.1 CU1|11.0.60123.100|1-Feb-2013|https://devblogs.microsoft.com/bharry/hotfixes-for-tfs-2012-update-1-tfs-2012-1/|
+|2012.1 Hotfix|11.0.60123.0|11-Jan-2013|https://devblogs.microsoft.com/bharry/tfs-2012-update-1-hotfix/|
+|2012.1|11.0.51106.1|26-Nov-2012|https://devblogs.microsoft.com/bharry/visual-studio-2012-update-1-is-available/|
+|2012.1 CTP||29-Oct-2012|https://devblogs.microsoft.com/bharry/visual-studio-2012-update-1-final-ctp/|
+|2012.1 CTP||9-Oct-2012|https://devblogs.microsoft.com/bharry/team-foundation-service-update-oct-9-and-vs-2012-update-1-ctp/|
+|2012 RTM|11.0.50727.1|12-Sep-2012|https://devblogs.microsoft.com/bharry/visual-studio-2012-launch-is-today/|
+|2012 RC||31-May-2012|https://devblogs.microsoft.com/bharry/visual-studiotfs-2012-release-candidate-available-today/|
 
 # 2010
 
