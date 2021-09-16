@@ -214,7 +214,7 @@ If you see a blank, feel free to contribute using a PR.
 |Public version number|Semantic Version Number|Release Date|Announcement URL|
 |-|-|-|-|
 |2012.4 Patch 1|11.0.61243.400|9-Jul-2019|https://devblogs.microsoft.com/devops/july-security-release-patches-available-for-azure-devops-server-and-team-foundation-server/|
-|2012.4|11.0.61030.0|
+|2012.4|11.0.61030.0|12-Nov-2013|https://docs.microsoft.com/en-GB/troubleshoot/visualstudio/install/visual-studio-2012-update-4|
 |2012.4 RC4||8-Oct-2013|https://devblogs.microsoft.com/bharry/vs-2012-4-and-tfs-2012-4-rc-4-is-available/|
 |2012.4 RC3||11-Sep-2013|https://devblogs.microsoft.com/bharry/visual-studio-2012-4-rc-3-available/|
 |2012.4 RC2||19-Aug-2013|https://devblogs.microsoft.com/bharry/vstfs-2012-4-update-4-rc-2-is-available/|
