@@ -121,7 +121,7 @@ If you see a blank, feel free to contribute using a PR.
 |2018.1.2 Patch|16.122.28512.1|15-Jan-2019|https://devblogs.microsoft.com/devops/team-foundation-server-security-updates/|
 |2018.1.2|16.122.28313.3|27-Nov-2018|https://docs.microsoft.com/en-us/visualstudio/releasenotes/tfs2018-update1#-release-date-november-27-2018|
 |2018.1.1 Patch|16.122.28226.4|5-Nov-2018|https://devblogs.microsoft.com/devops/security-fixes-for-team-foundation-server/|
-|2018.1.1||18-Sep-2018|https://devblogs.microsoft.com/devops/team-foundation-server-2018-update-3-and-update-1-1-are-available/|
+|2018.1.1|16.122.28028.4|12-Sep-2018|https://devblogs.microsoft.com/devops/team-foundation-server-2018-update-3-and-update-1-1-are-available/|
 |2018.1 RTM|16.122.27409.2|20-Feb-2018|https://devblogs.microsoft.com/bharry/tfs-2018-1-rtm-is-available/|
 |2018.1 RC1||30-Jan-2018|https://devblogs.microsoft.com/bharry/tfs-2018-update-1-rc-is-available/|
 |2018 RTW|16.122.27102.1|15-Nov-2017|https://devblogs.microsoft.com/bharry/connect-announcements/|
@@ -171,7 +171,7 @@ If you see a blank, feel free to contribute using a PR.
 |2015.4.2 Patch 2|14.114.29025.0|9-Jul-2019|https://devblogs.microsoft.com/devops/july-security-release-patches-available-for-azure-devops-server-and-team-foundation-server/|
 |2015.4.2 Patch 1|14.114.28829.0|14-May-2019|https://devblogs.microsoft.com/devops/may-security-release-patches-available-for-azure-devops-server-2019-tfs-2018-3-2-tfs-2018-1-2-tfs-2017-3-1-and-tfs-2015-4-2/|
 |2015.4.2|14.114.28805.0|9-Apr-2019|https://devblogs.microsoft.com/devops/april-security-release-patches-available-for-azure-devops-server-2019-tfs-2018-3-2-tfs-2018-1-2-tfs-2017-3-1-and-the-release-of-tfs-2015-4-2/|
-|2015.4.1||2-Mar-2018|https://devblogs.microsoft.com/devops/security-updates-for-tfs-2015-update-4-tfs-2017-and-tfs-2017-update-3/|
+|2015.4.1|14.114.26412.0|2-Mar-2018|https://devblogs.microsoft.com/devops/security-updates-for-tfs-2015-update-4-tfs-2017-and-tfs-2017-update-3/|
 |2015.4|14.114.26403.0|12-Apr-2017|https://devblogs.microsoft.com/bharry/tfs-2015-4-released/|
 |2015.4 RC1|14.113.26306.0|14-Mar-2017|https://devblogs.microsoft.com/bharry/tfs-2015-update-4-preview/|
 |2015.3|14.102.25423.0|27-Jun-2016|https://devblogs.microsoft.com/devops/team-foundation-server-2015-update-3-is-available/|
