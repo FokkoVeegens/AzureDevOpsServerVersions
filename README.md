@@ -24,7 +24,8 @@ If you see a blank, feel free to contribute using a PR.
 |Public version number|Semantic Version Number|Release Date|Announcement URL|
 |-|-|-|-|
 |2020.1.1 Patch 1|18.181.31707.2|14-Sep-2021|https://devblogs.microsoft.com/devops/september-patches-for-azure-devops-server-and-team-foundation-server-2/|
-|2020.1.1 RTW|18.181.31626.1|17-Aug-2021|https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-1-rtw-now-available/|
+|2020.1.1 RTW re-release|18.181.31626.1|17-Aug-2021|https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-1-rtw-now-available/|
+|2020.1.1 RTW|18.181.31527.1|17-Aug-2021|https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-1-rtw-now-available/|
 |2020.1.1 RC||13-Jul-2021|https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-1-rc-now-available/|
 |2020.1 Patch 2|18.181.31609.2|10-Aug-2021|https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server/|
 |2020.1 Patch 1|18.181.31402.2|15-Jun-2021|https://devblogs.microsoft.com/devops/june-patches-for-azure-devops-server/|
