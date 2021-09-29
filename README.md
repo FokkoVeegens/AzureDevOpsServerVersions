@@ -68,7 +68,7 @@ If you see a blank, feel free to contribute using a PR.
 |2019.1 RC2||23-Jul-2019|https://devblogs.microsoft.com/devops/now-available-azure-devops-server-2019-update-1-release-candidate-2/|
 |2019.1 RC1||2-Jul-2019|https://devblogs.microsoft.com/devops/announcing-azure-devops-server-2019-update-1-rc1/|
 |2019.0.1 Patch 11|17.143.31528.1|10-Aug-2021|https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server/|
-|2019.0.1 Patch 10||13-Apr-2021|https://devblogs.microsoft.com/devops/april-patches-for-azure-devops-server-and-team-foundation-server-2/|
+|2019.0.1 Patch 10|ARM Task Update|13-Apr-2021|https://devblogs.microsoft.com/devops/april-patches-for-azure-devops-server-and-team-foundation-server-2/|
 |2019.0.1 Patch 9|17.143.30723.4|8-Dec-2020|https://devblogs.microsoft.com/devops/december-patches-for-azure-devops-server-and-team-foundation-server/|
 |2019.0.1 Patch 7|17.143.30229.3|14-Jul-2020|https://devblogs.microsoft.com/devops/july-patches-for-azure-devops-server-and-team-foundation-server/|
 |2019.0.1 Patch 6|17.143.30129.2|10-Jun-2020|https://devblogs.microsoft.com/devops/june-patches-for-azure-devops-server-and-team-foundation-server/|
@@ -88,7 +88,7 @@ If you see a blank, feel free to contribute using a PR.
 
 |Public version number|Semantic Version Number|Release Date|Announcement URL|
 |-|-|-|-|
-|2018.3.2 Patch 15||13-Apr-2021|https://devblogs.microsoft.com/devops/april-patches-for-azure-devops-server-and-team-foundation-server-2/|
+|2018.3.2 Patch 15|ARM Task Update|13-Apr-2021|https://devblogs.microsoft.com/devops/april-patches-for-azure-devops-server-and-team-foundation-server-2/|
 |2018.3.2 Patch 14|16.131.30724.3|8-Dec-2020|https://devblogs.microsoft.com/devops/december-patches-for-azure-devops-server-and-team-foundation-server/|
 |2018.3.2 Patch 13|16.131.30605.1|13-Oct-2020|https://devblogs.microsoft.com/devops/october-patch-for-team-foundation-server/|
 |2018.3.2 Patch 12|16.131.30229.4|14-Jul-2020|https://devblogs.microsoft.com/devops/july-patches-for-azure-devops-server-and-team-foundation-server/|
@@ -111,7 +111,7 @@ If you see a blank, feel free to contribute using a PR.
 |2018.2|16.131.27701.1|7-May-2018|https://devblogs.microsoft.com/devops/team-foundation-server-2018-update-2-is-now-available/|
 |2018.2 RC2||17-Apr-2018|https://devblogs.microsoft.com/devops/tfs-2018-update-2-rc2/|
 |2018.2 RC1||28-Mar-2018|https://devblogs.microsoft.com/devops/tfs-2018-update-2-rc1/|
-|2018.1.2 Patch 10||13-Apr-2021|https://devblogs.microsoft.com/devops/april-patches-for-azure-devops-server-and-team-foundation-server-2/|
+|2018.1.2 Patch 10|ARM Task Update|13-Apr-2021|https://devblogs.microsoft.com/devops/april-patches-for-azure-devops-server-and-team-foundation-server-2/|
 |2018.1.2 Patch 9|16.122.30723.1|8-Dec-2020|https://devblogs.microsoft.com/devops/december-patches-for-azure-devops-server-and-team-foundation-server/|
 |2018.1.2 Patch 8|16.122.29825.4|10-Mar-2020|https://devblogs.microsoft.com/devops/march-patches-for-azure-devops-server-and-team-foundation-server/|
 |2018.1.2 Patch 6|16.122.29226.6|10-Sep-2019|https://devblogs.microsoft.com/devops/september-patches-for-azure-devops-server-and-team-foundation-server/|
@@ -134,7 +134,7 @@ If you see a blank, feel free to contribute using a PR.
 |Public version number|Semantic Version Number|Release Date|Announcement URL|
 |-|-|-|-|
 |2017.3.1 Patch 14|15.117.31707.0|14-Sep-2021|https://devblogs.microsoft.com/devops/september-patches-for-azure-devops-server-and-team-foundation-server-2/|
-|2017.3.1 Patch 13||13-Apr-2021|https://devblogs.microsoft.com/devops/april-patches-for-azure-devops-server-and-team-foundation-server-2/|
+|2017.3.1 Patch 13|ARM Task Update|13-Apr-2021|https://devblogs.microsoft.com/devops/april-patches-for-azure-devops-server-and-team-foundation-server-2/|
 |2017.3.1 Patch 12|15.117.30801.0|8-Dec-2020|https://devblogs.microsoft.com/devops/december-patches-for-azure-devops-server-and-team-foundation-server/|
 |2017.3.1 Patch 11|15.117.30128.0|10-Jun-2020|https://devblogs.microsoft.com/devops/june-patches-for-azure-devops-server-and-team-foundation-server/|
 |2017.3.1 Patch 10|15.117.29825.0|10-Mar-2020|https://devblogs.microsoft.com/devops/march-patches-for-azure-devops-server-and-team-foundation-server/|
