@@ -23,6 +23,7 @@ If you see a blank, feel free to contribute using a PR.
 
 |Public version number|Semantic Version Number|Rest API Version|Release Date|Announcement URL|
 |-|-|-|-|-|
+|2020.1.1 Patch 2|18.181.31821.3|5.1|26-Oct-2021|https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server/|
 |2020.1.1 Patch 1|18.181.31707.2|5.1|14-Sep-2021|https://devblogs.microsoft.com/devops/september-patches-for-azure-devops-server-and-team-foundation-server-2/|
 |2020.1.1 RTW re-release|18.181.31626.1|5.1|17-Aug-2021|https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-1-rtw-now-available/|
 |2020.1.1 RTW|18.181.31527.1|5.1|17-Aug-2021|https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-1-rtw-now-available/|
@@ -32,6 +33,7 @@ If you see a blank, feel free to contribute using a PR.
 |2020.1 RTW|18.181.31230.2|5.1|25-May-2021|https://devblogs.microsoft.com/devops/now-available-azure-devops-server-2020-1-rtw/|
 |2020.1 RC2||5.1|13-Apr-2021|https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-rc2-now-available/|
 |2020.1 RC1||5.1|23-Mar-2021|https://devblogs.microsoft.com/devops/introducing-azure-devops-server-2020-1-rc1/|
+|2020.0.1 Patch 7|18.170.31821.4|5.1|26-Oct-2021|https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server/|
 |2020.0.1 Patch 6|18.170.31708.1|5.1|14-Sep-2021|https://devblogs.microsoft.com/devops/september-patches-for-azure-devops-server-and-team-foundation-server-2/|
 |2020.0.1 Patch 5|18.170.31602.2|5.1|10-Aug-2021|https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server/|
 |2020.0.1 Patch 4|18.170.31402.6|5.1|15-Jun-2021|https://devblogs.microsoft.com/devops/june-patches-for-azure-devops-server/|
