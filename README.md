@@ -253,8 +253,8 @@ If you see a blank, feel free to contribute using a PR.
 
 |Public version number|Semantic Version Number|Release Date|Announcement URL|
 |-|-|-|-|
-|2008 SP1|9.0.30729.1|11-Aug-2008|https://docs.microsoft.com/en-us/lifecycle/products/visual-studio-team-system-2008 **Announcement URL not found**|
-|2008 RTM|9.0.21022.8|19-Feb-2008|https://docs.microsoft.com/en-us/lifecycle/products/visual-studio-team-system-2008 **Announcement URL not found**|
+|2008 SP1|9.0.30729.1|11-Aug-2008|https://devblogs.microsoft.com/bharry/vsvststfs-net-3-5-sp1-is-shipping/|
+|2008 RTM|9.0.21022.8|19-Nov-2007|https://devblogs.microsoft.com/bharry/vsvststfs-2008-are-shipping/|
 
 # 2005
 
