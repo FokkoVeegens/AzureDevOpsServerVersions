@@ -260,5 +260,5 @@ If you see a blank, feel free to contribute using a PR.
 
 |Public version number|Semantic Version Number|Release Date|Announcement URL|
 |-|-|-|-|
-|2005 SP1|8.0.50727.762|14-Dec-2006|https://docs.microsoft.com/en-us/lifecycle/products/microsoft-visual-studio-2005-team-foundation-server **Announcement URL not found**|
-|2005 RTM|8.0.50727.147|17-Jun-2006|https://docs.microsoft.com/en-us/lifecycle/products/microsoft-visual-studio-2005-team-foundation-server **Announcement URL not found**|
+|2005 SP1|8.0.50727.762|15-Dec-2006|https://devblogs.microsoft.com/buckh/visual-studio-2005-service-pack-1-released/|
+|2005 RTM|8.0.50727.147|16-Mar-2006|https://docs.microsoft.com/en-us/archive/blogs/somasegar/team-foundation-server-is-now-here|
