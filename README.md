@@ -49,7 +49,8 @@ If you see a blank, feel free to contribute using a PR.
 |2020 Patch 1|18.170.30723.6|5.1|8-Dec-2020|https://devblogs.microsoft.com/devops/december-patches-for-azure-devops-server-and-team-foundation-server/|
 |2020 RTW|18.170.30525.1|5.1|6-Oct-2020|https://devblogs.microsoft.com/devops/azure-devops-server-2020-rtw-now-available/|
 |2020 RC2|18.170.30331.4|5.1|11-Aug-2020|https://devblogs.microsoft.com/devops/azure-devops-server-2020-rc2-now-available/|
-|2020 RC1|18.170.30308.2|5.1|30-Jun-2020|https://devblogs.microsoft.com/devops/announcing-azure-devops-server-2020-rc1/|
+|2020 RC1 re-release|18.170.30308.2|5.1|10-Jul-2020|https://devblogs.microsoft.com/devops/announcing-azure-devops-server-2020-rc1/|
+|2020 RC1||5.1|30-Jun-2020|https://devblogs.microsoft.com/devops/announcing-azure-devops-server-2020-rc1/|
 
 # 2019
 
