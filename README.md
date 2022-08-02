@@ -25,39 +25,39 @@ If you see a blank, feel free to contribute using a PR.
 
 ||Public version number|Semantic Version Number|Rest API Version|Release Date|Announcement URL|
 |-|-|-|-|-|-|
-||2020.1.2 Patch 1|18.181.32606.4|5.1|12-Jul-2022|https://devblogs.microsoft.com/devops/july-patches-for-azure-devops-server/|
-|⭐|2020.1.2|18.181.32404.7|5.1|17-May-2022|https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-2-2020-0-2-and-2019-1-2-releases/|
-||2020.1.1 Patch 4|18.181.32118.5|5.1|26-Jan-2022|https://devblogs.microsoft.com/devops/azure-devops-server-and-team-foundation-server-patches/|
-||2020.1.1 Patch 3|18.181.32011.3|5.1|15-Dec-2021|https://devblogs.microsoft.com/devops/december-patches-for-azure-devops-server/|
-||2020.1.1 Patch 2|18.181.31821.3|5.1|26-Oct-2021|https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server/|
-||2020.1.1 Patch 1|18.181.31707.2|5.1|14-Sep-2021|https://devblogs.microsoft.com/devops/september-patches-for-azure-devops-server-and-team-foundation-server-2/|
-|⭐|2020.1.1 RTW re-release|18.181.31626.1|5.1|17-Aug-2021|https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-1-rtw-now-available/|
-|⭐|2020.1.1 RTW|18.181.31527.1|5.1|17-Aug-2021|https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-1-rtw-now-available/|
-||2020.1.1 RC||5.1|13-Jul-2021|https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-1-rc-now-available/|
-||2020.1 Patch 2|18.181.31609.2|5.1|10-Aug-2021|https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server/|
-||2020.1 Patch 1|18.181.31402.2|5.1|15-Jun-2021|https://devblogs.microsoft.com/devops/june-patches-for-azure-devops-server/|
-|⭐|2020.1 RTW|18.181.31230.2|5.1|25-May-2021|https://devblogs.microsoft.com/devops/now-available-azure-devops-server-2020-1-rtw/|
-||2020.1 RC2||5.1|13-Apr-2021|https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-rc2-now-available/|
-||2020.1 RC1||5.1|23-Mar-2021|https://devblogs.microsoft.com/devops/introducing-azure-devops-server-2020-1-rc1/|
-|⭐|2020.0.2|18.170.32404.6|5.1|17-May-2022|https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-2-2020-0-2-and-2019-1-2-releases/|
-||2020.0.1 Patch 9|18.170.32118.4|5.1|26-Jan-2022|https://devblogs.microsoft.com/devops/azure-devops-server-and-team-foundation-server-patches/|
-||2020.0.1 Patch 8|18.170.32011.2|5.1|15-Dec-2021|https://devblogs.microsoft.com/devops/december-patches-for-azure-devops-server/|
-||2020.0.1 Patch 7|18.170.31821.4|5.1|26-Oct-2021|https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server/|
-||2020.0.1 Patch 6|18.170.31708.1|5.1|14-Sep-2021|https://devblogs.microsoft.com/devops/september-patches-for-azure-devops-server-and-team-foundation-server-2/|
-||2020.0.1 Patch 5|18.170.31602.2|5.1|10-Aug-2021|https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server/|
-||2020.0.1 Patch 4|18.170.31402.6|5.1|15-Jun-2021|https://devblogs.microsoft.com/devops/june-patches-for-azure-devops-server/|
-||2020.0.1 Patch 3|18.170.31228.1|5.1|11-May-2021|https://devblogs.microsoft.com/devops/may-patches-for-azure-devops-server/|
-||2020.0.1 Patch 2|18.170.31123.3|5.1|13-Apr-2021|https://devblogs.microsoft.com/devops/april-patches-for-azure-devops-server-and-team-foundation-server-2/|
-||2020.0.1 Patch 1|18.170.31004.1|5.1|9-Feb-2021|https://devblogs.microsoft.com/devops/february-patches-for-azure-devops-server/|
-|⭐|2020.0.1 RTW|18.170.30910.2|5.1|19-Jan-2021|https://devblogs.microsoft.com/devops/azure-devops-server-2020-0-1-rtw-now-available/|
-||2020.0.1 RC||5.1|8-Dec-2020|https://devblogs.microsoft.com/devops/announcing-azure-devops-server-2020-0-1-rc/|
-||2020 Patch 3|18.170.31003.2|5.1|9-Feb-2021|https://devblogs.microsoft.com/devops/february-patches-for-azure-devops-server/|
-||2020 Patch 2|18.170.30830.2|5.1|12-Jan-2021|https://devblogs.microsoft.com/devops/january-patches-for-azure-devops-server-and-team-foundation-server/|
-||2020 Patch 1|18.170.30723.6|5.1|8-Dec-2020|https://devblogs.microsoft.com/devops/december-patches-for-azure-devops-server-and-team-foundation-server/|
-|⭐|2020 RTW|18.170.30525.1|5.1|6-Oct-2020|https://devblogs.microsoft.com/devops/azure-devops-server-2020-rtw-now-available/|
-||2020 RC2|18.170.30331.4|5.1|11-Aug-2020|https://devblogs.microsoft.com/devops/azure-devops-server-2020-rc2-now-available/|
-||2020 RC1 re-release|18.170.30308.2|5.1|10-Jul-2020|https://devblogs.microsoft.com/devops/announcing-azure-devops-server-2020-rc1/|
-||2020 RC1||5.1|30-Jun-2020|https://devblogs.microsoft.com/devops/announcing-azure-devops-server-2020-rc1/|
+||2020.1.2 Patch 1|18.181.32606.4|6.0|12-Jul-2022|https://devblogs.microsoft.com/devops/july-patches-for-azure-devops-server/|
+|⭐|2020.1.2|18.181.32404.7|6.0|17-May-2022|https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-2-2020-0-2-and-2019-1-2-releases/|
+||2020.1.1 Patch 4|18.181.32118.5|6.0|26-Jan-2022|https://devblogs.microsoft.com/devops/azure-devops-server-and-team-foundation-server-patches/|
+||2020.1.1 Patch 3|18.181.32011.3|6.0|15-Dec-2021|https://devblogs.microsoft.com/devops/december-patches-for-azure-devops-server/|
+||2020.1.1 Patch 2|18.181.31821.3|6.0|26-Oct-2021|https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server/|
+||2020.1.1 Patch 1|18.181.31707.2|6.0|14-Sep-2021|https://devblogs.microsoft.com/devops/september-patches-for-azure-devops-server-and-team-foundation-server-2/|
+|⭐|2020.1.1 RTW re-release|18.181.31626.1|6.0|17-Aug-2021|https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-1-rtw-now-available/|
+|⭐|2020.1.1 RTW|18.181.31527.1|6.0|17-Aug-2021|https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-1-rtw-now-available/|
+||2020.1.1 RC||6.0|13-Jul-2021|https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-1-rc-now-available/|
+||2020.1 Patch 2|18.181.31609.2|6.0|10-Aug-2021|https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server/|
+||2020.1 Patch 1|18.181.31402.2|6.0|15-Jun-2021|https://devblogs.microsoft.com/devops/june-patches-for-azure-devops-server/|
+|⭐|2020.1 RTW|18.181.31230.2|6.0|25-May-2021|https://devblogs.microsoft.com/devops/now-available-azure-devops-server-2020-1-rtw/|
+||2020.1 RC2||6.0|13-Apr-2021|https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-rc2-now-available/|
+||2020.1 RC1||6.0|23-Mar-2021|https://devblogs.microsoft.com/devops/introducing-azure-devops-server-2020-1-rc1/|
+|⭐|2020.0.2|18.170.32404.6|6.0|17-May-2022|https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-2-2020-0-2-and-2019-1-2-releases/|
+||2020.0.1 Patch 9|18.170.32118.4|6.0|26-Jan-2022|https://devblogs.microsoft.com/devops/azure-devops-server-and-team-foundation-server-patches/|
+||2020.0.1 Patch 8|18.170.32011.2|6.0|15-Dec-2021|https://devblogs.microsoft.com/devops/december-patches-for-azure-devops-server/|
+||2020.0.1 Patch 7|18.170.31821.4|6.0|26-Oct-2021|https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server/|
+||2020.0.1 Patch 6|18.170.31708.1|6.0|14-Sep-2021|https://devblogs.microsoft.com/devops/september-patches-for-azure-devops-server-and-team-foundation-server-2/|
+||2020.0.1 Patch 5|18.170.31602.2|6.0|10-Aug-2021|https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server/|
+||2020.0.1 Patch 4|18.170.31402.6|6.0|15-Jun-2021|https://devblogs.microsoft.com/devops/june-patches-for-azure-devops-server/|
+||2020.0.1 Patch 3|18.170.31228.1|6.0|11-May-2021|https://devblogs.microsoft.com/devops/may-patches-for-azure-devops-server/|
+||2020.0.1 Patch 2|18.170.31123.3|6.0|13-Apr-2021|https://devblogs.microsoft.com/devops/april-patches-for-azure-devops-server-and-team-foundation-server-2/|
+||2020.0.1 Patch 1|18.170.31004.1|6.0|9-Feb-2021|https://devblogs.microsoft.com/devops/february-patches-for-azure-devops-server/|
+|⭐|2020.0.1 RTW|18.170.30910.2|6.0|19-Jan-2021|https://devblogs.microsoft.com/devops/azure-devops-server-2020-0-1-rtw-now-available/|
+||2020.0.1 RC||6.0|8-Dec-2020|https://devblogs.microsoft.com/devops/announcing-azure-devops-server-2020-0-1-rc/|
+||2020 Patch 3|18.170.31003.2|6.0|9-Feb-2021|https://devblogs.microsoft.com/devops/february-patches-for-azure-devops-server/|
+||2020 Patch 2|18.170.30830.2|6.0|12-Jan-2021|https://devblogs.microsoft.com/devops/january-patches-for-azure-devops-server-and-team-foundation-server/|
+||2020 Patch 1|18.170.30723.6|6.0|8-Dec-2020|https://devblogs.microsoft.com/devops/december-patches-for-azure-devops-server-and-team-foundation-server/|
+|⭐|2020 RTW|18.170.30525.1|6.0|6-Oct-2020|https://devblogs.microsoft.com/devops/azure-devops-server-2020-rtw-now-available/|
+||2020 RC2|18.170.30331.4|6.0|11-Aug-2020|https://devblogs.microsoft.com/devops/azure-devops-server-2020-rc2-now-available/|
+||2020 RC1 re-release|18.170.30308.2|6.0|10-Jul-2020|https://devblogs.microsoft.com/devops/announcing-azure-devops-server-2020-rc1/|
+||2020 RC1||6.0|30-Jun-2020|https://devblogs.microsoft.com/devops/announcing-azure-devops-server-2020-rc1/|
 
 # 2019
 
