@@ -25,6 +25,7 @@ If you see a blank, feel free to contribute using a PR.
 
 ||Public version number|Semantic Version Number|Rest API Version|Release Date|Announcement URL|
 |-|-|-|-|-|-|
+||2020.1.2 Patch 2|18.181.32727.2|6.0|9-Aug-2022|https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server-2/|
 ||2020.1.2 Patch 1|18.181.32606.4|6.0|12-Jul-2022|https://devblogs.microsoft.com/devops/july-patches-for-azure-devops-server/|
 |⭐|2020.1.2|18.181.32404.7|6.0|17-May-2022|https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-2-2020-0-2-and-2019-1-2-releases/|
 ||2020.1.1 Patch 4|18.181.32118.5|6.0|26-Jan-2022|https://devblogs.microsoft.com/devops/azure-devops-server-and-team-foundation-server-patches/|
