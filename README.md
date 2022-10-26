@@ -10,6 +10,7 @@ If you see a blank, feel free to contribute using a PR.
 
 # Table of contents
 
+* [2022](#2022)
 * [2020](#2020)
 * [2019](#2019)
 * [2018](#2018)
@@ -21,11 +22,17 @@ If you see a blank, feel free to contribute using a PR.
 * [2008](#2008)
 * [2005](#2005)
 
+# 2022
+
+||Public version number|Semantic Version Number|Rest API Version|Release Date|Announcement URL|
+|-|-|-|-|-|-|
+||2022 RC2|19.205.33011.1|7.1|25-Oct-2022|https://devblogs.microsoft.com/devops/azure-devops-server-2022-rc2-now-available/|
+||2022 RC1|19.205.32728.1|7.1|9-Aug-2022|https://devblogs.microsoft.com/devops/introducing-azure-devops-server-2022-rc1/|
+
 # 2020
 
 ||Public version number|Semantic Version Number|Rest API Version|Release Date|Announcement URL|
 |-|-|-|-|-|-|
-||2022 RC1|19.205.32728.1|7.1|9-Aug-2022|https://devblogs.microsoft.com/devops/introducing-azure-devops-server-2022-rc1/|
 ||2020.1.2 Patch 3|18.181.33010.2|6.0|18-Oct-2022|https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server-2/|
 ||2020.1.2 Patch 2|18.181.32727.2|6.0|9-Aug-2022|https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server-2/|
 ||2020.1.2 Patch 1|18.181.32606.4|6.0|12-Jul-2022|https://devblogs.microsoft.com/devops/july-patches-for-azure-devops-server/|
