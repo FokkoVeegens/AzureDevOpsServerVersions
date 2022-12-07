@@ -26,6 +26,7 @@ If you see a blank, feel free to contribute using a PR.
 
 ||Public version number|Semantic Version Number|Rest API Version|Release Date|Announcement URL|
 |-|-|-|-|-|-|
+|⭐|2022 RTW|19.205.33122.1|7.1|6-Dec-2022|https://devblogs.microsoft.com/devops/now-available-azure-devops-server-2022-rtw/|
 ||2022 RC2|19.205.33011.1|7.1|25-Oct-2022|https://devblogs.microsoft.com/devops/azure-devops-server-2022-rc2-now-available/|
 ||2022 RC1|19.205.32728.1|7.1|9-Aug-2022|https://devblogs.microsoft.com/devops/introducing-azure-devops-server-2022-rc1/|
 
