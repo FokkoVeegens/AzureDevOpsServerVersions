@@ -26,6 +26,7 @@ If you see a blank, feel free to contribute using a PR.
 
 ||Public version number|Semantic Version Number|Rest API Version|Release Date|Announcement URL|
 |-|-|-|-|-|-|
+||2022 Patch 2|19.205.33402.2|7.1|14-Feb-2023|https://devblogs.microsoft.com/devops/february-patches-for-azure-devops-server-2/|
 ||2022 Patch 1|19.205.33312.1|7.1|24-Jan-2023|https://devblogs.microsoft.com/devops/azure-devops-server-2022-patch-1/|
 |⭐|2022 RTW|19.205.33122.1|7.1|6-Dec-2022|https://devblogs.microsoft.com/devops/now-available-azure-devops-server-2022-rtw/|
 ||2022 RC2|19.205.33011.1|7.1|25-Oct-2022|https://devblogs.microsoft.com/devops/azure-devops-server-2022-rc2-now-available/|
@@ -35,6 +36,8 @@ If you see a blank, feel free to contribute using a PR.
 
 ||Public version number|Semantic Version Number|Rest API Version|Release Date|Announcement URL|
 |-|-|-|-|-|-|
+||2020.1.2 Patch 5|18.181.33407.1|6.0|14-Feb-2023|https://devblogs.microsoft.com/devops/february-patches-for-azure-devops-server-2/|
+||2020.1.2 Patch 4|18.181.33128.1|6.0|13-Dec-2022|https://devblogs.microsoft.com/devops/december-patches-for-azure-devops-server-2/|
 ||2020.1.2 Patch 3|18.181.33010.2|6.0|18-Oct-2022|https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server-2/|
 ||2020.1.2 Patch 2|18.181.32727.2|6.0|9-Aug-2022|https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server-2/|
 ||2020.1.2 Patch 1|18.181.32606.4|6.0|12-Jul-2022|https://devblogs.microsoft.com/devops/july-patches-for-azure-devops-server/|
@@ -76,6 +79,7 @@ If you see a blank, feel free to contribute using a PR.
 
 ||Public version number|Semantic Version Number|Rest API Version|Release Date|Announcement URL|
 |-|-|-|-|-|-|
+||2019.1.2 Patch 2|17.153.33202.2|5.0|13-Dec-2022|https://devblogs.microsoft.com/devops/december-patches-for-azure-devops-server-2/|
 ||2019.1.2 Patch 1|17.153.32609.2|5.0|12-Jul-2022|https://devblogs.microsoft.com/devops/july-patches-for-azure-devops-server/|
 |⭐|2019.1.2|17.153.32407.5|5.0|17-May-2022|https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-2-2020-0-2-and-2019-1-2-releases/|
 ||2019.1.1 Patch 13|17.153.32118.3|5.0|26-Jan-2022|https://devblogs.microsoft.com/devops/azure-devops-server-and-team-foundation-server-patches/|
