@@ -8,6 +8,10 @@ Major/minor releases are marked with a star ⭐.
 
 If you see a blank, feel free to contribute using a PR.
 
+# How to check the version you're running?
+
+The version of TFS or Azure DevOps Server can be found on the server itself by looking it up in the TFS/Azure DevOps Server Administration Console. The explanation can be found on [learn.microsoft.com](https://learn.microsoft.com/en-us/azure/devops/server/admin/open-admin-console).
+
 # Table of contents
 
 * [2022](#2022)
