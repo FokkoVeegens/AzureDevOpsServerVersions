@@ -31,6 +31,7 @@ The version of TFS or Azure DevOps Server can be found on the server itself by l
 ||Public version number|Semantic Version Number|Rest API Version|Release Date|Announcement URL|
 |-|-|-|-|-|-|
 ||2022.1 RC1|19.225.34108.1|7.1|19-Sep-2023|https://devblogs.microsoft.com/devops/introducing-azure-devops-server-2022-update-1-rc1/|
+||2022.0.1 Patch 4|19.205.34206.1|7.1|10-Oct-2023|https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server-3/|
 ||2022.0.1 Patch 3|19.205.34025.4|7.1|12-Sep-2023|https://devblogs.microsoft.com/devops/september-patches-for-azure-devops-server-2/|
 ||2022.0.1 Patch 2|19.205.33921.2|7.1|8-Aug-2023|https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server-3/|
 ||2022.0.1 Patch 1|19.205.33802.5|7.1|13-Jun-2023|https://devblogs.microsoft.com/devops/june-patches-for-azure-devops-server-2/|
@@ -48,6 +49,7 @@ The version of TFS or Azure DevOps Server can be found on the server itself by l
 
 ||Public version number|Semantic Version Number|Rest API Version|Release Date|Announcement URL|
 |-|-|-|-|-|-|
+||2020.1.2 Patch 9|18.181.34126.2|6.0|10-Oct-2023|https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server-3/|
 ||2020.1.2 Patch 8|18.181.34023.1|6.0|12-Sep-2023|https://devblogs.microsoft.com/devops/september-patches-for-azure-devops-server-2/|
 ||2020.1.2 Patch 7|18.181.33921.3|6.0|8-Aug-2023|https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server-3/|
 ||2020.1.2 Patch 6|18.181.33801.3|6.0|13-Jun-2023|https://devblogs.microsoft.com/devops/june-patches-for-azure-devops-server-2/|
@@ -69,6 +71,7 @@ The version of TFS or Azure DevOps Server can be found on the server itself by l
 |⭐|2020.1 RTW|18.181.31230.2|6.0|25-May-2021|https://devblogs.microsoft.com/devops/now-available-azure-devops-server-2020-1-rtw/|
 ||2020.1 RC2||6.0|13-Apr-2021|https://devblogs.microsoft.com/devops/azure-devops-server-2020-1-rc2-now-available/|
 ||2020.1 RC1||6.0|23-Mar-2021|https://devblogs.microsoft.com/devops/introducing-azure-devops-server-2020-1-rc1/|
+||2020.0.2 Patch 5|18.170.34127.1|6.0|10-Oct-2023|https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server-3/|
 ||2020.0.2 Patch 4|18.170.34025.3|6.0|12-Sep-2023|https://devblogs.microsoft.com/devops/september-patches-for-azure-devops-server-2/|
 ||2020.0.2 Patch 3|18.170.33921.4|6.0|8-Aug-2023|https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server-3/|
 ||2020.0.2 Patch 2|18.170.33802.3|6.0|13-Jun-2023|https://devblogs.microsoft.com/devops/june-patches-for-azure-devops-server-2/|
