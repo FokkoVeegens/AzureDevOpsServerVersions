@@ -5,6 +5,7 @@ The below version number pattern is used in the Web UI of Azure DevOps. It devia
 |Public version number|Web UI version number|Remarks|
 |-|-|-|
 |2022.0.1|Dev19.M205.5|Verified|
+|2022 RTM|Dev19.M205.3|Verified|
 
 # 2020
 
