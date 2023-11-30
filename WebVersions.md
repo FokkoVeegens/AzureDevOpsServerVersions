@@ -11,6 +11,7 @@ The below version number pattern is used in the Web UI of Azure DevOps. It devia
 
 |Public version number|Web UI version number|Remarks|
 |-|-|-|
+|2020.1.2|Dev18.M181.9|Verified|
 |2020 Patch 2|Dev18.M170.9|Microsoft says it's 2020 RTW (https://learn.microsoft.com/en-us/azure/devops/user-guide/lookup-platform-version?view=azure-devops), but semantic version number indicates Patch 2|
 
 # 2019
