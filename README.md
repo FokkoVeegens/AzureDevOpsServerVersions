@@ -56,7 +56,7 @@ The version of TFS or Azure DevOps Server can be found on the server itself by l
 ||2020.1.2 Patch 11|18.181.34327.4|6.0|12-Dec-2023|https://devblogs.microsoft.com/devops/december-patches-for-azure-devops-server-3/|
 |❗|2020.1.2 Patch 10|18.181.34126.2|6.0|14-Nov-2023|https://devblogs.microsoft.com/devops/november-patches-for-azure-devops-server-and-team-foundation-server/ This is not a new product version, this patch updates Build Tasks. Please read the blog.|
 ||2020.1.2 Patch 9|18.181.34126.2|6.0|10-Oct-2023|https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server-3/|
-||2020.1.2 Patch 8|18.181.34023.1|6.0|12-Sep-2023|https://devblogs.microsoft.com/devops/september-patches-for-azure-devops-server-2/|
+|❗|2020.1.2 Patch 8|18.181.34023.1|6.0|12-Sep-2023|https://devblogs.microsoft.com/devops/september-patches-for-azure-devops-server-2/ This patch also includes an update to the pipelines agent and [should be installed prior to subsequent patches](https://devblogs.microsoft.com/devops/december-patches-for-azure-devops-server-3/#comment-4191).|
 ||2020.1.2 Patch 7|18.181.33921.3|6.0|8-Aug-2023|https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server-3/|
 ||2020.1.2 Patch 6|18.181.33801.3|6.0|13-Jun-2023|https://devblogs.microsoft.com/devops/june-patches-for-azure-devops-server-2/|
 ||2020.1.2 Patch 5|18.181.33407.1|6.0|14-Feb-2023|https://devblogs.microsoft.com/devops/february-patches-for-azure-devops-server-2/|
