@@ -1,0 +1,50 @@
+[
+    {
+        "ProductVersion": "19.205.32728.1",
+        "ApiVersion": "7.1"
+    },
+    {
+        "ProductVersion": "18.170.0.0",
+        "ApiVersion": "6.0"
+    },
+    {
+        "ProductVersion": "17.143.0.0",
+        "ApiVersion": "5.0"
+    },
+    {
+        "ProductVersion": "16.131.0.0",
+        "ApiVersion": "4.1"
+    },
+    {
+        "ProductVersion": "16.121.26818.0",
+        "ApiVersion": "4.0"
+    },
+    {
+        "ProductVersion": "15.117.26526.0",
+        "ApiVersion": "3.2"
+    },
+    {
+        "ProductVersion": "15.111.26117.0",
+        "ApiVersion": "3.1"
+    },
+    {
+        "ProductVersion": "15.103.25603.0",
+        "ApiVersion": "3.0"
+    },
+    {
+        "ProductVersion": "14.98.25401.0",
+        "ApiVersion": "2.3"
+    },
+    {
+        "ProductVersion": "14.95.25005.0",
+        "ApiVersion": "2.2"
+    },
+    {
+        "ProductVersion": "14.0.24606.0",
+        "ApiVersion": "2.1"
+    },
+    {
+        "ProductVersion": "14.0.22604.0",
+        "ApiVersion": "2.0"
+    }
+]
