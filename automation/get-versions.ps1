@@ -4,9 +4,9 @@
 
 # Params
 # body.primaryLink
-$blogUrl = "https://devblogs.microsoft.com/devops/now-available-azure-devops-server-2020-1-rtw/"
+$blogUrl = "https://devblogs.microsoft.com/devops/february-patches-for-azure-devops-server-3/"
 # body.publishDate
-$publishDateString = "2024-01-26 18:26:53Z"
+$publishDateString = "2024-02-13 18:00:00Z"
 
 
 $publishDate = [datetime]$publishDateString
