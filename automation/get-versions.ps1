@@ -4,13 +4,14 @@
 
 # Params
 # body.primaryLink
-$blogUrl = "https://devblogs.microsoft.com/devops/february-patches-for-azure-devops-server-3/"
+$blogUrl = "https://devblogs.microsoft.com/devops/march-patches-for-azure-devops-server-2/"
 # body.publishDate
-$publishDateString = "2024-02-13 18:00:00Z"
+$publishDateString = "2024-03-12 18:00:00Z"
 
 
 $publishDate = [datetime]$publishDateString
-$publishDateFormattedString = $publishDate.ToString("dd-MMM-yyyy")
+$culture = New-Object System.Globalization.CultureInfo("en-US")
+$publishDateFormattedString = $publishDate.ToString("dd-MMM-yyyy", $culture)
 
 $ErrorActionPreference = 'Break'
 $Global_RegexRemoveHTML = '<[^>]+>'
