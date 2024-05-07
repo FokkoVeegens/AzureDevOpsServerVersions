@@ -4,14 +4,16 @@
 
 # Params
 # body.primaryLink
-$blogUrl = "https://devblogs.microsoft.com/devops/march-patches-for-azure-devops-server-2/"
+$blogUrl = "https://devblogs.microsoft.com/devops/azure-devops-server-2022-update-2-rc-now-available/"
+$downloadUrl = "https://go.microsoft.com/fwlink/?LinkId=2269844"
+$downloadTitle = "2022.2 RC"
 # body.publishDate
-$publishDateString = "2024-03-12 18:00:00Z"
+$publishDateString = "2024-05-07 18:00:00Z"
 
 
 $publishDate = [datetime]$publishDateString
 $culture = New-Object System.Globalization.CultureInfo("en-US")
-$publishDateFormattedString = $publishDate.ToString("dd-MMM-yyyy", $culture)
+$publishDateFormattedString = $publishDate.ToString("d-MMM-yyyy", $culture)
 
 $ErrorActionPreference = 'Break'
 $Global_RegexRemoveHTML = '<[^>]+>'
@@ -20,6 +22,34 @@ $downloadFilePath = "$dataPath/azdo.exe"
 
 function ConvertTo-Title($outerHTML) {
     return $outerHTML -replace $Global_RegexRemoveHTML,''
+}
+
+function Process-DownloadLink($downloadLinkHref, $linkTitle, $apiVersions) {
+    $ProgressPreference = 'SilentlyContinue'
+    Invoke-WebRequest -uri $downloadLinkHref -OutFile $downloadFilePath
+    $ProgressPreference = 'Continue'
+    $FindResults = Select-String -Path $downloadFilePath -Pattern "P\u0000r\u0000o\u0000d\u0000u\u0000c\u0000t\u0000V\u0000e\u0000r\u0000s\u0000i\u0000o\u0000n\u0000\u0000\u0000.*?(\u0000\u0000\u0000\u0000\u0000D)"
+    $markDownResult = ""
+    if ($FindResults.Matches.length -gt 0) {
+        if ($FindResults.Matches.length -gt 1) {
+            Write-Warning "Multiple matches found for $linkTitle"
+        }
+        foreach ($match in $FindResults.Matches) {
+            $cleanedMatch = $match -replace '\u0000'
+            $versionNumber = ($cleanedMatch -replace 'ProductVersion') -replace 'D'
+
+            $apiVersionEntry = $apiVersions | Where-Object { $_.ProductVersion -le $versionNumber } | Sort-Object -Descending | Select-Object -First 1
+            if ($apiVersionEntry) {
+                $markDownResult += "||$($linkTitle)|$($versionNumber)|$($apiVersionEntry.ApiVersion)|$($publishDateFormattedString)|$($blogUrl)|`n"
+            }
+            else {
+                $markDownResult += "||$($linkTitle)|$($versionNumber)||$($publishDateFormattedString)|$($blogUrl)|`n"
+            }
+            Write-Host "Version: $versionNumber"
+            break
+        }
+    }
+    return $markDownResult
 }
 
 if (!(Test-Path -Path $dataPath -PathType Container)) {
@@ -45,31 +75,16 @@ $apiVersions = Get-Content -Path "$($PSScriptRoot)/api-versions.json" | ConvertF
 $apiVersions | ForEach-Object { $_.ProductVersion = [System.Version]$_.ProductVersion }
 
 $markDown = ""
-foreach ($downloadLink in $downloadLinks) {
-    $linkTitle = (ConvertTo-Title -outerHTML $downloadLink.OuterHTML) -replace "Azure DevOps Server "
-    Write-Output "Processing $linkTitle"
-    $ProgressPreference = 'SilentlyContinue'
-    Invoke-WebRequest -uri $downloadLink.href -OutFile $downloadFilePath
-    $ProgressPreference = 'Continue'
-    $FindResults = Select-String -Path $downloadFilePath -Pattern "P\u0000r\u0000o\u0000d\u0000u\u0000c\u0000t\u0000V\u0000e\u0000r\u0000s\u0000i\u0000o\u0000n\u0000\u0000\u0000.*?(\u0000\u0000\u0000\u0000\u0000D)"
-    if ($FindResults.Matches.length -gt 0) {
-        if ($FindResults.Matches.length -gt 1) {
-            Write-Warning "Multiple matches found for $linkTitle"
-        }
-        foreach ($match in $FindResults.Matches) {
-            $cleanedMatch = $match -replace '\u0000'
-            $versionNumber = ($cleanedMatch -replace 'ProductVersion') -replace 'D'
-
-            $apiVersionEntry = $apiVersions | Where-Object { $_.ProductVersion -le $versionNumber } | Sort-Object -Descending | Select-Object -First 1
-            if ($apiVersionEntry) {
-                $markDown += "||$($linkTitle)|$($versionNumber)|$($apiVersionEntry.ApiVersion)|$($publishDateFormattedString)|$($blogUrl)|`n"
-            }
-            else {
-                $markDown += "||$($linkTitle)|$($versionNumber)||$($publishDateFormattedString)|$($blogUrl)|`n"
-            }
-            Write-Host "Version: $versionNumber"
-            break
-        }
+if (!$downloadUrl) {
+    foreach ($downloadLink in $downloadLinks) {
+        $linkTitle = (ConvertTo-Title -outerHTML $downloadLink.OuterHTML) -replace "Azure DevOps Server "
+        Write-Output "Processing $linkTitle"
+        $markDown += Process-DownloadLink -downloadLinkHref $downloadLink.href -linkTitle $linkTitle -apiVersions $apiVersions
     }
 }
+else {
+    $markDown += Process-DownloadLink -downloadLinkHref $downloadUrl -linkTitle $downloadTitle -apiVersions $apiVersions
+}
+
 Write-Host $markDown
+Set-Clipboard -Value $markDown
