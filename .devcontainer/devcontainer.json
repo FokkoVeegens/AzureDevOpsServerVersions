@@ -4,7 +4,7 @@
 	"name": "PowerShell",
 	"image": "mcr.microsoft.com/powershell:lts-debian-11",
 	"features": {
-		"ghcr.io/devcontainers/features/common-utils:1": {
+		"ghcr.io/devcontainers/features/common-utils:2.5.2": {
 			"installZsh": "true",
 			"username": "vscode",
 			"uid": "1000",
