@@ -15,10 +15,12 @@ if (!(Test-Path -Path $dataPath -PathType Container)) {
     New-Item -Path $dataPath -ItemType Directory
 }
 
-$response = Invoke-WebRequest -uri "https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server-3/"
+$response = Invoke-WebRequest -uri "https://devblogs.microsoft.com/devops/march-patches-for-azure-devops-server-3/"
 $downloadLinks = $response.Links | `
     Where-Object { $_.href -like "https://aka.ms/*" -and `
-                    (ConvertTo-Title -outerHTML $_.OuterHTML) -like "*Azure DevOps*" -and `
+                    ((ConvertTo-Title -outerHTML $_.OuterHTML) -like "*Azure DevOps*" `
+                        -or (ConvertTo-Title -outerHTML $_.OuterHTML) -like "*Patch*") `
+                     -and `
                     (ConvertTo-Title -outerHTML $_.OuterHTML) -notlike "*ISO*"  } | Group-Object -Property href | ForEach-Object { $_.Group[0] }
 foreach ($downloadLink in $downloadLinks) {
     $linkTitle = ConvertTo-Title -outerHTML $downloadLink.OuterHTML
