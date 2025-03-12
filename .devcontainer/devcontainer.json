@@ -13,7 +13,7 @@
 			"installOhMyZsh": "true",
 			"nonFreePackages": "true"
 		},
-		"ghcr.io/devcontainers/features/powershell:1": {}
+		"ghcr.io/devcontainers/features/powershell:1.5.0": {}
 	},
 
 	"postCreateCommand": "sudo chsh vscode -s \"$(which pwsh)\"",
