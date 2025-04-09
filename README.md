@@ -30,6 +30,7 @@ The version of TFS or Azure DevOps Server can be found on the server itself by l
 
 ||Public version number|Semantic Version Number|Rest API Version|Release Date|Announcement URL|
 |-|-|-|-|-|-|
+||2022.2 Patch 5|19.235.35931.1|7.1|8-Apr-2025|https://devblogs.microsoft.com/devops/april-patches-for-azure-devops-server-and-team-foundation-server-3/|
 ||2022.2 Patch 4|19.235.35826.1|7.1|11-Mar-2025|https://devblogs.microsoft.com/devops/march-patches-for-azure-devops-server-3/|
 ||2022.2 Patch 3|19.235.35813.1|7.1|11-Feb-2025|https://devblogs.microsoft.com/devops/february-patches-for-azure-devops-server-4/|
 ||2022.2 Patch 2|19.235.35428.1|7.1|12-Nov-2024|https://devblogs.microsoft.com/devops/november-patches-for-azure-devops-server/|
@@ -63,6 +64,7 @@ The version of TFS or Azure DevOps Server can be found on the server itself by l
 
 ||Public version number|Semantic Version Number|Rest API Version|Release Date|Announcement URL|
 |-|-|-|-|-|-|
+||2020.1.2 Patch 16|18.181.35931.2|6.0|8-Apr-2025|https://devblogs.microsoft.com/devops/april-patches-for-azure-devops-server-and-team-foundation-server-3/|
 ||2020.1.2 Patch 15|18.181.35826.2|6.0|11-Mar-2025|https://devblogs.microsoft.com/devops/march-patches-for-azure-devops-server-3/|
 ||2020.1.2 Patch 14|18.181.35425.2|6.0|12-Nov-2024|https://devblogs.microsoft.com/devops/november-patches-for-azure-devops-server/|
 ||2020.1.2 Patch 13|18.181.34705.3|6.0|12-Mar-2024|https://devblogs.microsoft.com/devops/march-patches-for-azure-devops-server-2/|
@@ -121,6 +123,7 @@ The version of TFS or Azure DevOps Server can be found on the server itself by l
 
 ||Public version number|Semantic Version Number|Rest API Version|Release Date|Announcement URL|
 |-|-|-|-|-|-|
+||2019.1.2 Patch 11|17.153.36001.1|5.0|8-Apr-2025|https://devblogs.microsoft.com/devops/april-patches-for-azure-devops-server-and-team-foundation-server-3/|
 ||2019.1.2 Patch 10|17.153.35826.3|5.0|11-Mar-2025|https://devblogs.microsoft.com/devops/march-patches-for-azure-devops-server-3/|
 ||2019.1.2 Patch 9|17.153.34812.2|5.0|28-May-2024|https://devblogs.microsoft.com/devops/may-patches-for-azure-devops-server-2/|
 ||2019.1.2 Patch 8|17.153.34706.1|5.0|12-Mar-2024|https://devblogs.microsoft.com/devops/march-patches-for-azure-devops-server-2/|
@@ -176,6 +179,7 @@ The version of TFS or Azure DevOps Server can be found on the server itself by l
 
 ||Public version number|Semantic Version Number|Rest API Version|Release Date|Announcement URL|
 |-|-|-|-|-|-|
+||2018.3.2 Patch 20|16.131.35931.4|4.1|8-Apr-2025|https://devblogs.microsoft.com/devops/april-patches-for-azure-devops-server-and-team-foundation-server-3/|
 |❗|2018.3.2 Patch 19|16.131.32404.3|4.1|14-Nov-2023|https://devblogs.microsoft.com/devops/november-patches-for-azure-devops-server-and-team-foundation-server/ This is not a new product version, this patch updates Build Tasks. Please read the blog.|
 |❗|2018.3.2 Patch 18|16.131.32404.3|4.1|12-Sep-2023|https://devblogs.microsoft.com/devops/september-patches-for-azure-devops-server-2/ This is not a new product version, but the Pipelines Agent(s) should be updated as part of this patch. Please read the blog.|
 ||2018.3.2 Patch 17|16.131.32404.3|4.1|17-May-2022|https://devblogs.microsoft.com/devops/may-patches-for-azure-devops-server-and-team-foundation-server/|
