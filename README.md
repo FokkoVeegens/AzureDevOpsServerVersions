@@ -14,17 +14,17 @@ The version of TFS or Azure DevOps Server can be found on the server itself by l
 
 # Table of contents
 
-* [Azure DevOps Server](#Azure%20DevOps%20Server) - ([Modern lifecycle policy](https://learn.microsoft.com/en-us/lifecycle/policies/modern))
-* [Azure DevOps Server 2022](#Azure%20DevOps%20Server%202022)
-* [Azure DevOps Server 2020](#Azure%20DevOps%20Server%202020)
-* [Azure DevOps Server 2019](#Azure%20DevOps%20Server%202019)
-* [Team Foundation Server 2018](#Team%20Foundation%20Server%202018)
-* [Team Foundation Server 2017](#Team%20Foundation%20Server%202017)
-* [Team Foundation Server 2015](#Team%20Foundation%20Server%202015)
-* [Team Foundation Server 2013](#Team%20Foundation%20Server%202013)
-* [Team Foundation Server 2012](#Team%20Foundation%20Server%202012)
-* [Team Foundation Server 2010](#Team%20Foundation%20Server%202010)
-* [Team Foundation Server 2008](#Team%20Foundation%20Server%202008)
+* [Azure DevOps Server](#Azure-DevOps-Server) - ([Modern lifecycle policy](https://learn.microsoft.com/en-us/lifecycle/policies/modern))
+* [Azure DevOps Server 2022](#Azure-DevOps-Server-2022)
+* [Azure DevOps Server 2020](#Azure-DevOps-Server-2020)
+* [Azure DevOps Server 2019](#Azure-DevOps-Server-2019)
+* [Team Foundation Server 2018](#Team-Foundation-Server-2018)
+* [Team Foundation Server 2017](#Team-Foundation-Server-2017)
+* [Team Foundation Server 2015](#Team-Foundation-Server-2015)
+* [Team Foundation Server 2013](#Team-Foundation-Server-2013)
+* [Team Foundation Server 2012](#Team-Foundation-Server-2012)
+* [Team Foundation Server 2010](#Team-Foundation-Server-2010)
+* [Team Foundation Server 2008](#Team-Foundation-Server-2008)
 * [Team Foundation Server 2005](#Team-Foundation-Server-2005)
 
 # Azure DevOps Server
