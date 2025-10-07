@@ -15,17 +15,17 @@ The version of TFS or Azure DevOps Server can be found on the server itself by l
 # Table of contents
 
 * [Azure DevOps Server](#Azure%20DevOps%20Server) - ([Modern lifecycle policy](https://learn.microsoft.com/en-us/lifecycle/policies/modern))
-* [2022](#2022)
-* [2020](#2020)
-* [2019](#2019)
-* [2018](#2018)
-* [2017](#2017)
-* [2015](#2015)
-* [2013](#2013)
-* [2012](#2012)
-* [2010](#2010)
-* [2008](#2008)
-* [2005](#2005)
+* [Azure DevOps Server 2022](#Azure%20DevOps%20Server%202022)
+* [Azure DevOps Server 2020](#Azure%20DevOps%20Server%202020)
+* [Azure DevOps Server 2019](#Azure%20DevOps%20Server%202019)
+* [Team Foundation Server 2018](#Team%20Foundation%20Server%202018)
+* [Team Foundation Server 2017](#Team%20Foundation%20Server%202017)
+* [Team Foundation Server 2015](#Team%20Foundation%20Server%202015)
+* [Team Foundation Server 2013](#Team%20Foundation%20Server%202013)
+* [Team Foundation Server 2012](#Team%20Foundation%20Server%202012)
+* [Team Foundation Server 2010](#Team%20Foundation%20Server%202010)
+* [Team Foundation Server 2008](#Team%20Foundation%20Server%202008)
+* [Team Foundation Server 2005](#Team%20Foundation%20Server%202005)
 
 # Azure DevOps Server
 
@@ -33,7 +33,7 @@ The version of TFS or Azure DevOps Server can be found on the server itself by l
 |-|-|-|-|-|-|
 ||RC|20.0.36503.1|7.2|7-Oct-2025|https://devblogs.microsoft.com/devops/announcing-the-new-azure-devops-server-rc-release/|
 
-# 2022
+# Azure DevOps Server 2022
 
 ||Public version number|Semantic Version Number|Rest API Version|Release Date|Announcement URL|
 |-|-|-|-|-|-|
@@ -68,7 +68,7 @@ The version of TFS or Azure DevOps Server can be found on the server itself by l
 ||2022 RC2|19.205.33011.1|7.1|25-Oct-2022|https://devblogs.microsoft.com/devops/azure-devops-server-2022-rc2-now-available/|
 ||2022 RC1|19.205.32728.1|7.1|9-Aug-2022|https://devblogs.microsoft.com/devops/introducing-azure-devops-server-2022-rc1/|
 
-# 2020
+# Azure DevOps Server 2020
 
 ||Public version number|Semantic Version Number|Rest API Version|Release Date|Announcement URL|
 |-|-|-|-|-|-|
@@ -128,7 +128,7 @@ The version of TFS or Azure DevOps Server can be found on the server itself by l
 ||2020 RC1 re-release|18.170.30308.2|6.0|10-Jul-2020|https://devblogs.microsoft.com/devops/announcing-azure-devops-server-2020-rc1/|
 ||2020 RC1||6.0|30-Jun-2020|https://devblogs.microsoft.com/devops/announcing-azure-devops-server-2020-rc1/|
 
-# 2019
+# Azure DevOps Server 2019
 
 ||Public version number|Semantic Version Number|Rest API Version|Release Date|Announcement URL|
 |-|-|-|-|-|-|
@@ -184,7 +184,7 @@ The version of TFS or Azure DevOps Server can be found on the server itself by l
 ||2019 RC2||5.0|22-Jan-2019|https://devblogs.microsoft.com/devops/azure-devops-server-2019-rc2-now-available/|
 ||2019 RC1||5.0|21-Nov-2018|https://devblogs.microsoft.com/devops/announcing-azure-devops-server-2019-rc1/|
 
-# 2018
+# Team Foundation Server 2018
 
 ||Public version number|Semantic Version Number|Rest API Version|Release Date|Announcement URL|
 |-|-|-|-|-|-|
@@ -234,7 +234,7 @@ The version of TFS or Azure DevOps Server can be found on the server itself by l
 ||2018 RC2|16.122.26918.3|4.0|25-Sep-2017|https://devblogs.microsoft.com/bharry/tfs-2018-rc2-is-available/|
 ||2018 RC1|16.121.26818.0|4.0|30-Aug-2017|https://devblogs.microsoft.com/bharry/tfs-2018-rc1-is-available/|
 
-# 2017
+# Team Foundation Server 2017
 
 ||Public version number|Semantic Version Number|Rest API Version|Release Date|Announcement URL|
 |-|-|-|-|-|-|
@@ -267,7 +267,7 @@ The version of TFS or Azure DevOps Server can be found on the server itself by l
 ||2017 RC2|15.105.25716.0|3.0|26-Sep-2016|https://devblogs.microsoft.com/bharry/team-foundation-server-15-rc-2-available/|
 ||2017 RC1|15.103.25603.0|3.0|8-Aug-2016|https://devblogs.microsoft.com/bharry/tfs-15-rc1-is-available/|
 
-# 2015
+# Team Foundation Server 2015
 
 ||Public version number|Semantic Version Number|Rest API Version|Release Date|Announcement URL|
 |-|-|-|-|-|-|
@@ -296,7 +296,7 @@ The version of TFS or Azure DevOps Server can be found on the server itself by l
 ||2015 RC|14.0.22824.0|2.0|29-Apr-2015|https://devblogs.microsoft.com/bharry/visual-studio-and-team-foundation-server-at-build-2015/|
 ||2015 CTP|14.0.22604.0|2.0|23-Feb-2015|https://devblogs.microsoft.com/bharry/vs-2015-ctp6-and-tfs-2015-ctp1-shipped-today/|
 
-# 2013
+# Team Foundation Server 2013
 
 ||Public version number|Semantic Version Number|Release Date|Announcement URL|
 |-|-|-|-|-|
@@ -317,7 +317,7 @@ The version of TFS or Azure DevOps Server can be found on the server itself by l
 ||2013 RC|12.0.20827.3|9-Sep-2013|https://devblogs.microsoft.com/bharry/visual-studio-2013-tfs-2013-rc-is-available/|
 ||2013 Preview||26-Jun-2013|https://devblogs.microsoft.com/bharry/visual-studio-2013-preview-is-available/|
 
-# 2012
+# Team Foundation Server 2012
 
 ||Public version number|Semantic Version Number|Release Date|Announcement URL|
 |-|-|-|-|-|
@@ -342,7 +342,7 @@ The version of TFS or Azure DevOps Server can be found on the server itself by l
 |⭐|2012 RTM|11.0.50727.1|12-Sep-2012|https://devblogs.microsoft.com/bharry/visual-studio-2012-launch-is-today/|
 ||2012 RC||31-May-2012|https://devblogs.microsoft.com/bharry/visual-studiotfs-2012-release-candidate-available-today/|
 
-# 2010
+# Team Foundation Server 2010
 
 ||Public version number|Semantic Version Number|Release Date|Announcement URL|
 |-|-|-|-|-|
@@ -351,14 +351,14 @@ The version of TFS or Azure DevOps Server can be found on the server itself by l
 |⭐|2010 SP1|10.0.40219.1|25-Oct-2011|https://devblogs.microsoft.com/visualstudio/visual-studio-2010-sp1-now-available-on-microsoft-update/|
 |⭐|2010 RTM|10.0.30319.1|14-Apr-2010|https://devblogs.microsoft.com/buckh/tfs-2010-has-shipped/|
 
-# 2008
+# Team Foundation Server 2008
 
 ||Public version number|Semantic Version Number|Release Date|Announcement URL|
 |-|-|-|-|-|
 |⭐|2008 SP1|9.0.30729.1|11-Aug-2008|https://devblogs.microsoft.com/bharry/vsvststfs-net-3-5-sp1-is-shipping/|
 |⭐|2008 RTM|9.0.21022.8|19-Nov-2007|https://devblogs.microsoft.com/bharry/vsvststfs-2008-are-shipping/|
 
-# 2005
+# Team Foundation Server 2005
 
 ||Public version number|Semantic Version Number|Release Date|Announcement URL|
 |-|-|-|-|-|
