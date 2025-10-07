@@ -14,6 +14,7 @@ The version of TFS or Azure DevOps Server can be found on the server itself by l
 
 # Table of contents
 
+* [Azure DevOps Server](#Azure DevOps Server) ([Modern lifecycle policy](https://learn.microsoft.com/en-us/lifecycle/policies/modern))
 * [2022](#2022)
 * [2020](#2020)
 * [2019](#2019)
@@ -25,6 +26,11 @@ The version of TFS or Azure DevOps Server can be found on the server itself by l
 * [2010](#2010)
 * [2008](#2008)
 * [2005](#2005)
+
+# Azure DevOps Server
+
+|-|-|-|-|-|-|
+||RC|20.0.36503.1|7.2|7-Oct-2025|https://devblogs.microsoft.com/devops/announcing-the-new-azure-devops-server-rc-release/|
 
 # 2022
 
