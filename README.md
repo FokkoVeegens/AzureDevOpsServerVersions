@@ -25,7 +25,7 @@ The version of TFS or Azure DevOps Server can be found on the server itself by l
 * [Team Foundation Server 2012](#Team%20Foundation%20Server%202012)
 * [Team Foundation Server 2010](#Team%20Foundation%20Server%202010)
 * [Team Foundation Server 2008](#Team%20Foundation%20Server%202008)
-* [Team Foundation Server 2005](#Team%20Foundation%20Server%202005)
+* [Team Foundation Server 2005](#Team-Foundation-Server-2005)
 
 # Azure DevOps Server
 
