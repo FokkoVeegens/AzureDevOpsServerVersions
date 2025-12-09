@@ -31,6 +31,7 @@ The version of TFS or Azure DevOps Server can be found on the server itself by l
 
 ||Public version number|Semantic Version Number|Rest API Version|Release Date|Announcement URL|
 |-|-|-|-|-|-|
+|⭐|GA|20.0.36719.1|7.2|9-Dec-2025|https://devblogs.microsoft.com/devops/announcing-azure-devops-server-general-availability/|
 ||RC|20.0.36503.1|7.2|7-Oct-2025|https://devblogs.microsoft.com/devops/announcing-the-new-azure-devops-server-rc-release/|
 
 # Azure DevOps Server 2022
