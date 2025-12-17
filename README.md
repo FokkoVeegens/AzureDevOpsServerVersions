@@ -211,7 +211,8 @@ The version of TFS or Azure DevOps Server can be found on the server itself by l
 ||2018.3.2 Patch 1|16.131.28605.6|4.1|12-Feb-2019|https://devblogs.microsoft.com/devops/february-security-release-team-foundation-server-2018-update-3-2-patch-1-is-available/|
 |⭐|2018.3.2|16.131.28601.4|4.1|15-Jan-2019|https://devblogs.microsoft.com/devops/team-foundation-server-security-updates/|
 |⭐|2018.3.2|16.131.28507.4|4.1|15-Jan-2019|https://devblogs.microsoft.com/devops/team-foundation-server-security-updates/|
-|⭐|2018.3.1|16.131.28318.3|4.1|5-Nov-2018|https://devblogs.microsoft.com/devops/security-fixes-for-team-foundation-server/|
+|⭐|2018.3.1|16.131.28318.3|4.1|5-Nov-2018|https://devblogs.microsoft.com/devops/security-fixes-for-team-foundation-server/ - Unclear which of these two version numbers is correct|
+|⭐|2018.3.1|16.131.28226.3|4.1|5-Nov-2018|https://devblogs.microsoft.com/devops/security-fixes-for-team-foundation-server/ - Unclear which of these two version numbers is correct|
 ||2018.3 Patch|16.131.28224.5|4.1|5-Nov-2018|https://devblogs.microsoft.com/devops/security-fixes-for-team-foundation-server/|
 |⭐|2018.3|16.131.28106.2|4.1|18-Sep-2018|https://devblogs.microsoft.com/devops/team-foundation-server-2018-update-3-and-update-1-1-are-available/|
 ||2018.3 RC||4.1|7-Aug-2018|https://devblogs.microsoft.com/devops/team-foundation-server-2018-update-3-rc-is-available/|
@@ -291,6 +292,8 @@ The version of TFS or Azure DevOps Server can be found on the server itself by l
 ||2015.2 RC2|14.95.25029.0|2.2|3-Mar-2016|https://devblogs.microsoft.com/bharry/tfs-2015-rc2-and-vs-2015-update-2-rc-are-available/|
 ||2015.2 RC1|14.95.25005.0|2.2|10-Feb-2016|https://devblogs.microsoft.com/bharry/team-foundation-server-2015-update-2-rc-1-is-available/|
 |⭐|2015.1|14.0.24712.0|2.1|30-Nov-2015|https://devblogs.microsoft.com/bharry/vs-2015-update-1-and-tfs-2015-update-1-are-available/|
+|⭐|2015.1|14.0.24712.0|2.1|30-Nov-2015|https://devblogs.microsoft.com/bharry/vs-2015-update-1-and-tfs-2015-update-1-are-available/ - Unclear which of these two version numbers is correct|
+|⭐|2015.1|14.0.24720.0|2.1|30-Nov-2015|https://devblogs.microsoft.com/bharry/vs-2015-update-1-and-tfs-2015-update-1-are-available/ - Unclear which of these two version numbers is correct|
 ||2015.1 RC2|14.0.24626.0|2.1|3-Nov-2015|https://devblogs.microsoft.com/bharry/vs-2015-update-1-rc-tfs-2015-update-1-rc2-released/|
 ||2015.1 RC1|14.0.24606.0|2.1|14-Oct-2015|https://devblogs.microsoft.com/bharry/visual-studio-and-team-foundation-server-2015-update-1-pre-release-available/|
 |⭐|2015 RTM|14.0.23128.0|2.0|6-Aug-2015|https://devblogs.microsoft.com/bharry/team-foundation-server-2015-final-release/|
