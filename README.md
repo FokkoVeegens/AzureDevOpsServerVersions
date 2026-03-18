@@ -349,7 +349,7 @@ The version of TFS or Azure DevOps Server can be found on the server itself by l
 ||2012.1 CTP||29-Oct-2012|https://devblogs.microsoft.com/bharry/visual-studio-2012-update-1-final-ctp/|
 ||2012.1 CTP||9-Oct-2012|https://devblogs.microsoft.com/bharry/team-foundation-service-update-oct-9-and-vs-2012-update-1-ctp/|
 |⭐|2012 RTM|11.0.50727.1|12-Sep-2012|https://devblogs.microsoft.com/bharry/visual-studio-2012-launch-is-today/|
-||2012 RC||31-May-2012|https://devblogs.microsoft.com/bharry/visual-studiotfs-2012-release-candidate-available-today/|
+||2012 RC|11.0.50522.0|31-May-2012|https://devblogs.microsoft.com/bharry/visual-studiotfs-2012-release-candidate-available-today/|
 
 # Team Foundation Server 2010
 
