@@ -1,5 +1,9 @@
 [
     {
+        "ProductVersion": "20.0.0.0",
+        "ApiVersion": "7.2"
+    },
+    {
         "ProductVersion": "19.205.32728.1",
         "ApiVersion": "7.1"
     },

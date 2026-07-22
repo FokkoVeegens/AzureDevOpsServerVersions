@@ -1,0 +1,45 @@
+name: Process Version Issue
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  process-version:
+    if: startsWith(github.event.issue.title, 'Process versions')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Extract versions and update README
+        shell: pwsh
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          ./automation/process-issue.ps1 -IssueBody $env:ISSUE_BODY -RepoRoot $env:GITHUB_WORKSPACE
+
+      - name: Create Pull Request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+        run: |
+          if git diff --quiet README.md; then
+            echo "No changes detected in README.md"
+            exit 1
+          fi
+
+          BRANCH_NAME="auto/issue-${ISSUE_NUMBER}"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b "${BRANCH_NAME}"
+          git add README.md
+          git commit -m "Update versions: ${ISSUE_TITLE}"
+          git push origin "${BRANCH_NAME}"
+          gh pr create \
+            --title "${ISSUE_TITLE}" \
+            --body "Automated version update. Closes #${ISSUE_NUMBER}" \
+            --head "${BRANCH_NAME}"

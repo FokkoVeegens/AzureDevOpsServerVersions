@@ -2,16 +2,16 @@
 #https://aka.ms/devops2020.1.2patch4
 #https://devblogs.microsoft.com/devops/now-available-azure-devops-server-2022-rtw/
 
-# Params
-# body.primaryLink
-$blogUrl = "https://devblogs.microsoft.com/devops/azure-devops-server-2022-update-2-rc-now-available/"
-$downloadUrl = "https://go.microsoft.com/fwlink/?LinkId=2269844"
-$downloadTitle = "2022.2 RC"
-# body.publishDate
-$publishDateString = "2024-05-07 18:00:00Z"
+param(
+    [Parameter(Mandatory=$true)]
+    [string]$BlogUrl,
+    [Parameter(Mandatory=$true)]
+    [string]$PublishDateString,
+    [string]$DownloadUrl,
+    [string]$DownloadTitle
+)
 
-
-$publishDate = [datetime]$publishDateString
+$publishDate = [datetime]$PublishDateString
 $culture = New-Object System.Globalization.CultureInfo("en-US")
 $publishDateFormattedString = $publishDate.ToString("d-MMM-yyyy", $culture)
 
@@ -62,6 +62,10 @@ else {
 $response = Invoke-WebRequest -uri $blogUrl
 $downloadLinks = $response.Links | `
     Where-Object { (`
+                        $_.href -match '^https://aka\.ms/devops(server|20\d{2})' -and `
+                        (ConvertTo-Title -outerHTML $_.OuterHTML) -notlike "*ISO*"`
+                    ) -or `
+                    (`
                         $_.href -like "https://aka.ms/*" -and `
                         (ConvertTo-Title -outerHTML $_.OuterHTML) -like "*Azure DevOps*" -and `
                         (ConvertTo-Title -outerHTML $_.OuterHTML) -notlike "*ISO*"`
@@ -77,8 +81,23 @@ $apiVersions | ForEach-Object { $_.ProductVersion = [System.Version]$_.ProductVe
 $markDown = ""
 if (!$downloadUrl) {
     foreach ($downloadLink in $downloadLinks) {
-        $linkTitle = (ConvertTo-Title -outerHTML $downloadLink.OuterHTML) -replace "Azure DevOps Server "
-        Write-Output "Processing $linkTitle"
+        $linkText = ConvertTo-Title -outerHTML $downloadLink.OuterHTML
+        if ($linkText -like "*Azure DevOps*") {
+            $linkTitle = $linkText -replace "Azure DevOps Server "
+        } else {
+            # Extract version title from URL (e.g. aka.ms/devops2022.2patch11 -> "2022.2 Patch 11")
+            $urlSegment = ($downloadLink.href -split '/')[-1]
+            if ($urlSegment -match '^devopsserver(.+)$') {
+                $linkTitle = ($Matches[1] -creplace 'patch', ' Patch ').Trim()
+            }
+            elseif ($urlSegment -match '^devops(\d.+)$') {
+                $linkTitle = ($Matches[1] -creplace 'patch', ' Patch ').Trim()
+            }
+            else {
+                $linkTitle = $linkText
+            }
+        }
+        Write-Host "Processing $linkTitle"
         $markDown += Process-DownloadLink -downloadLinkHref $downloadLink.href -linkTitle $linkTitle -apiVersions $apiVersions
     }
 }
@@ -86,5 +105,4 @@ else {
     $markDown += Process-DownloadLink -downloadLinkHref $downloadUrl -linkTitle $downloadTitle -apiVersions $apiVersions
 }
 
-Write-Host $markDown
-Set-Clipboard -Value $markDown
+Write-Output $markDown
