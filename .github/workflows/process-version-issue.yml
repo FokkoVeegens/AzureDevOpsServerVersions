@@ -11,6 +11,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      issues: write
     steps:
       - uses: actions/checkout@v4
 
@@ -19,13 +20,24 @@ jobs:
         run: ./automation/test-get-versions.ps1
 
       - name: Extract versions and update README
+        id: extract
         shell: pwsh
         env:
           ISSUE_BODY: ${{ github.event.issue.body }}
         run: |
           ./automation/process-issue.ps1 -IssueBody $env:ISSUE_BODY -RepoRoot $env:GITHUB_WORKSPACE
 
+      - name: Close issue as false positive
+        if: steps.extract.outputs.false_positive == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          gh issue close "${ISSUE_NUMBER}" --repo "${GITHUB_REPOSITORY}" --reason "not planned" \
+            --comment "Closing as a false positive: no executable to download was found, so this is probably not a real release."
+
       - name: Create Pull Request
+        if: steps.extract.outputs.false_positive != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
