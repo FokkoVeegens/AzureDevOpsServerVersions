@@ -31,7 +31,20 @@ Write-Host "Blog URL: $blogUrl"
 Write-Host "Publish date: $publishDateString"
 
 # Run get-versions.ps1 to extract version information from download binaries
-$markdownOutput = & "$PSScriptRoot/get-versions.ps1" -BlogUrl $blogUrl -PublishDateString $publishDateString
+try {
+    $markdownOutput = & "$PSScriptRoot/get-versions.ps1" -BlogUrl $blogUrl -PublishDateString $publishDateString
+}
+catch {
+    if ($_.Exception.Message -like '*No matching EXE download links found*') {
+        # No executable to download: most likely not a real release
+        Write-Host "No executable found; treating issue as a false positive."
+        if ($env:GITHUB_OUTPUT) {
+            "false_positive=true" | Add-Content -Path $env:GITHUB_OUTPUT
+        }
+        exit 0
+    }
+    throw
+}
 
 if (-not $markdownOutput) {
     Write-Error "No output from get-versions.ps1"

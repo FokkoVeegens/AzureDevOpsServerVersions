@@ -100,6 +100,40 @@ try {
     Assert-Equal $readmeLines[5] '||Existing|20.0.36719.1|7.2|9-Dec-2025|old|'
     Write-Host 'PASS: Issue processing inserts the generated row and preserves existing rows.'
 
+    $readmeContent = "# Azure DevOps Server`n`n||Public version number|Semantic Version Number|Rest API Version|Release Date|Announcement URL|`n|-|-|-|-|-|-|`n||Existing|20.0.36719.1|7.2|9-Dec-2025|old|"
+    Set-Content -Path $readmePath -Value $readmeContent
+    $readmeBaseline = [System.IO.File]::ReadAllText($readmePath)
+    $processIssueRunner = Join-Path $testRoot 'run-process-issue.ps1'
+    @'
+$ErrorActionPreference = 'Stop'
+function Invoke-WebRequest {
+    param($Uri, $OutFile)
+    if ($env:PROCESS_ISSUE_MODE -eq 'failure') {
+        throw 'Simulated unrelated extraction failure'
+    }
+    [PSCustomObject]@{ Links = @() }
+}
+& (Join-Path $PSScriptRoot 'process-issue.ps1') -IssueBody $env:PROCESS_ISSUE_BODY -RepoRoot $PSScriptRoot
+'@ | Set-Content -Path $processIssueRunner
+    $env:PROCESS_ISSUE_BODY = "Hyperlink: $blogUrl`nPublish date: 2026-10-27 20:31:59Z"
+    $env:PROCESS_ISSUE_MODE = 'missing'
+    $env:GITHUB_OUTPUT = Join-Path $testRoot 'missing-link-output'
+    $processOutput = & pwsh -NoProfile -File $processIssueRunner 2>&1 | Out-String
+    Assert-Equal $LASTEXITCODE 0
+    Assert-Equal (Get-Content -Path $env:GITHUB_OUTPUT -Raw).Trim() 'false_positive=true'
+    Assert-Equal ([System.IO.File]::ReadAllText($readmePath)) $readmeBaseline
+    Write-Host 'PASS: Missing installer links return successfully, emit false_positive=true, and leave README unchanged.'
+
+    $env:PROCESS_ISSUE_MODE = 'failure'
+    $env:GITHUB_OUTPUT = Join-Path $testRoot 'unrelated-error-output'
+    $processOutput = & pwsh -NoProfile -File $processIssueRunner 2>&1 | Out-String
+    Assert-Equal ($LASTEXITCODE -ne 0) $true
+    Assert-Equal ($processOutput -like '*Simulated unrelated extraction failure*') $true
+    Assert-Equal (Test-Path -Path $env:GITHUB_OUTPUT) $false
+    Assert-Equal ([System.IO.File]::ReadAllText($readmePath)) $readmeBaseline
+    Write-Host 'PASS: Unrelated extraction failures still fail without false-positive output or README changes.'
+    Remove-Item Env:\PROCESS_ISSUE_BODY, Env:\PROCESS_ISSUE_MODE, Env:\GITHUB_OUTPUT
+
     $expectedDownload = 'https://aka.ms/devops2022.2patch11'
     $blogLinks = @(
         (New-Link $expectedDownload 'Download patch')
